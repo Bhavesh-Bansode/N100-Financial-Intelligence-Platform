@@ -1,14 +1,13 @@
 import pandas as pd
 
 
-def load_excel(file_path, sheet_name=0):
+def load_excel(path: str) -> pd.DataFrame:
     """
     Load Excel file using header row 1.
     """
 
     df = pd.read_excel(
-        file_path,
-        sheet_name=sheet_name,
+        path,
         header=1
     )
 
