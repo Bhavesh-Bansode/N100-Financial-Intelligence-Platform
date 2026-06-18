@@ -81,9 +81,9 @@ class DataValidator:
     def check_ticker_format(df):
 
         return df[
-            (df["company_id"].str.len() < 2)
+            (df["company_id"].astype(str).str.len() < 2)
             |
-            (df["company_id"].str.len() > 12)
+            (df["company_id"].astype(str).str.len() > 12)
         ]
     
     ### net_cash_flow = operating_activity + investing_activity + financing
