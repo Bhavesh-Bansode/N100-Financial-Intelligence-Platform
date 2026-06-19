@@ -2,6 +2,10 @@ import pandas as pd
 
 from src.etl.loader import load_excel
 from src.etl.validator import DataValidator
+from src.etl.normaliser import (
+    normalize_year,
+    normalize_ticker
+)
 
 
 def add_failure(failures, result, rule, table):
@@ -27,7 +31,9 @@ def main():
     companies = load_excel(
         "data/raw/companies.xlsx"
     )
-
+    companies["id"] = companies["id"].apply(
+        normalize_ticker
+    )
     profitandloss = load_excel(
         "data/raw/profitandloss.xlsx"
     )
@@ -52,6 +58,29 @@ def main():
         "data/raw/prosandcons.xlsx"
     )
 
+    for df in [
+        profitandloss,
+        balancesheet,
+        cashflow
+    ]:
+
+        df["year"] = df["year"].apply(
+            normalize_year
+        )
+
+        df["company_id"] = df["company_id"].apply(
+            normalize_ticker
+        )
+
+    for df in [
+        analysis,
+        documents,
+        prosandcons
+    ]:
+
+        df["company_id"] = df["company_id"].apply(
+            normalize_ticker
+        )
     # ==========================
     # DQ-01
     # ==========================
