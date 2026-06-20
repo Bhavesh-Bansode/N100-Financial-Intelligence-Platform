@@ -1,6 +1,6 @@
 import sqlite3
 from pathlib import Path
-
+from datetime import datetime
 import pandas as pd
 
 import sys
@@ -135,11 +135,16 @@ def load_supporting_data():
         "peer_groups": peer_groups
     }
 
-
 def prepare_data(core, supporting):
 
-    companies = core["companies"]
+    audit_stats = {}
 
+    companies = core["companies"]
+    audit_stats["companies"] = {
+        "rows_in": len(companies),
+        "rows_out": len(companies),
+        "rejected": 0
+    }
     valid_ids = set(
         companies["id"]
         .astype(str)
@@ -154,7 +159,7 @@ def prepare_data(core, supporting):
     ]:
 
         df = core[name]
-
+        rows_before = len(df)
         df = normalize_company_id(df)
         df = normalize_year_column(df)
 
@@ -168,7 +173,11 @@ def prepare_data(core, supporting):
             df,
             valid_ids
         )
-
+        audit_stats[name] = {
+            "rows_in": rows_before,
+            "rows_out": len(df),
+            "rejected": rows_before - len(df)
+        }
         core[name] = df
 
     for name in [
@@ -187,7 +196,7 @@ def prepare_data(core, supporting):
             if name in core
             else supporting[name]
         )
-
+        rows_before = len(df)
         df = normalize_company_id(df)
 
         if (
@@ -221,7 +230,11 @@ def prepare_data(core, supporting):
             df,
             valid_ids
         )
-
+        audit_stats[name] = {
+            "rows_in": rows_before,
+            "rows_out": len(df),
+            "rejected": rows_before - len(df)
+        }
         if name in supporting:
             supporting[name] = df
         else:
@@ -245,7 +258,7 @@ def prepare_data(core, supporting):
         else:
             core[name] = df
 
-    return core, supporting
+    return core, supporting, audit_stats
 
 
 def create_database():
@@ -274,30 +287,68 @@ def create_database():
 
     return conn
 
-
 def load_tables(
     conn,
     core,
-    supporting
+    supporting,
+    audit_stats
 ):
+
+    audit_records = []
 
     for table_name, df in core.items():
 
+        rows_in = len(df)
+
+        start_time = datetime.now()
+
         df.to_sql(
             table_name,
             conn,
             if_exists="append",
             index=False
         )
+
+        runtime = (
+            datetime.now() - start_time
+        ).total_seconds()
+
+        audit_records.append({
+            "table": table_name,
+            "rows_in": audit_stats[table_name]["rows_in"],
+            "rows_out": audit_stats[table_name]["rows_out"],
+            "rejected": audit_stats[table_name]["rejected"],
+            "timestamp": datetime.now(),
+            "runtime_s": runtime
+        })
 
     for table_name, df in supporting.items():
 
+        rows_in = len(df)
+
+        start_time = datetime.now()
+
         df.to_sql(
             table_name,
             conn,
             if_exists="append",
             index=False
         )
+
+        runtime = (
+            datetime.now() - start_time
+        ).total_seconds()
+
+        audit_records.append({
+            "table": table_name,
+            "rows_in": rows_in,
+            "rows_out": rows_in,
+            "rejected": 0,
+            "timestamp": datetime.now(),
+            "runtime_s": runtime
+        })
+
+    return pd.DataFrame(audit_records)
 
 
 def print_counts(conn):
@@ -340,17 +391,27 @@ def main():
 
     supporting = load_supporting_data()
 
-    core, supporting = prepare_data(
+    core, supporting, audit_stats = prepare_data(
         core,
         supporting
     )
 
     conn = create_database()
 
-    load_tables(
+    audit_df = load_tables(
         conn,
         core,
-        supporting
+        supporting,
+        audit_stats
+    )
+
+    Path("reports").mkdir(
+        exist_ok=True
+    )
+
+    audit_df.to_csv(
+        "reports/load_audit.csv",
+        index=False
     )
 
     print_counts(
