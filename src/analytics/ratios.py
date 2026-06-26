@@ -1,3 +1,5 @@
+import pandas as pd
+
 def calculate_npm(net_profit, sales):
     """
     Calculate Net Profit Margin (%).
@@ -9,7 +11,6 @@ def calculate_npm(net_profit, sales):
 
     return (net_profit / sales) * 100
 
-
 def calculate_opm(operating_profit, sales):
     """
     Calculate Operating Profit Margin (%).
@@ -20,7 +21,6 @@ def calculate_opm(operating_profit, sales):
         return None
 
     return (operating_profit / sales) * 100
-
 
 def calculate_roe(net_profit, equity_capital, reserves):
     """
@@ -35,36 +35,53 @@ def calculate_roe(net_profit, equity_capital, reserves):
 
     return (net_profit / equity) * 100
 
-
 def calculate_roce(
-    operating_profit,
-    depreciation,
+    ebit,
     equity_capital,
     reserves,
-    borrowings
+    borrowings,
 ):
     """
-    Calculate Return on Capital Employed (%).
+    Calculate Return on Capital Employed (ROCE).
 
-    EBIT = Operating Profit - Depreciation
-    Capital Employed = Equity + Reserves + Borrowings
+    Formula:
+    ROCE = EBIT / (Equity Capital + Reserves + Borrowings) × 100
 
     Returns None if capital employed is zero or negative.
     """
 
-    ebit = operating_profit - depreciation
-
     capital_employed = (
-        equity_capital +
-        reserves +
-        borrowings
+        equity_capital
+        + reserves
+        + borrowings
     )
 
     if capital_employed <= 0:
         return None
 
-    return (ebit / capital_employed) * 100
+    return round(
+        (ebit / capital_employed) * 100,
+        2
+    )
 
+def calculate_roa(
+    net_profit,
+    total_assets,
+):
+    """
+    Return on Assets (ROA)
+
+    Formula:
+    ROA = Net Profit / Total Assets × 100
+    """
+
+    if total_assets <= 0:
+        return None
+
+    return round(
+        (net_profit / total_assets) * 100,
+        2
+    )
 
 def calculate_debt_to_equity(borrowings, equity, reserves, is_financial=False):
     """
@@ -83,7 +100,40 @@ def calculate_debt_to_equity(borrowings, equity, reserves, is_financial=False):
     if borrowings == 0:
         return 0
 
-    return (borrowings / total_equity) * 1.0
+    return round(
+        borrowings / total_equity,
+        2
+    )
+
+def calculate_net_debt(
+    borrowings,
+    investments,
+):
+    """
+    Calculate Net Debt.
+
+    Formula:
+    Net Debt = Borrowings - Investments
+    """
+
+    return borrowings - investments
+
+def high_leverage_flag(
+    debt_to_equity,
+    is_financial=False,
+):
+    """
+    Returns True if D/E > 5
+    for non-financial companies.
+    """
+
+    if is_financial:
+        return False
+
+    if debt_to_equity is None:
+        return False
+
+    return debt_to_equity > 5
 
 def calculate_interest_coverage(
     operating_profit,
@@ -97,7 +147,34 @@ def calculate_interest_coverage(
     if interest == 0:
         return None      # Display as "Debt Free"
 
-    return (operating_profit + other_income) / interest
+    return round(
+        (operating_profit + other_income) / interest,
+        2
+    )
+
+def interest_coverage_label(
+    interest_coverage,
+):
+    """
+    Label for Interest Coverage.
+    """
+
+    if interest_coverage is None:
+        return "Debt Free"
+
+    return None
+
+def interest_coverage_warning(
+    interest_coverage,
+):
+    """
+    Returns True if ICR < 1.5
+    """
+
+    if interest_coverage is None:
+        return False
+
+    return interest_coverage < 1.5
 
 def calculate_asset_turnover(
     sales,
@@ -110,10 +187,10 @@ def calculate_asset_turnover(
     if total_assets == 0:
         return None
 
-    return sales / total_assets
-
-
-import pandas as pd
+    return round(
+        sales / total_assets,
+        2
+    )
 
 def validate_opm(
     operating_profit,
@@ -151,3 +228,4 @@ def validate_opm(
         difference,
         is_valid
     )
+
