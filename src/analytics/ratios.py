@@ -66,6 +66,53 @@ def calculate_roce(
     return (ebit / capital_employed) * 100
 
 
+def calculate_debt_to_equity(borrowings, equity, reserves, is_financial=False):
+    """
+    Calculate Debt-to-Equity ratio.
+    Returns None for banks/NBFCs (carve-out).
+    """
+
+    if is_financial:
+        return None
+
+    total_equity = equity + reserves
+
+    if total_equity <= 0:
+        return None
+
+    if borrowings == 0:
+        return 0
+
+    return (borrowings / total_equity) * 1.0
+
+def calculate_interest_coverage(
+    operating_profit,
+    other_income,
+    interest,
+):
+    """
+    Calculate Interest Coverage Ratio.
+    """
+
+    if interest == 0:
+        return None      # Display as "Debt Free"
+
+    return (operating_profit + other_income) / interest
+
+def calculate_asset_turnover(
+    sales,
+    total_assets,
+):
+    """
+    Calculate Asset Turnover Ratio.
+    """
+
+    if total_assets == 0:
+        return None
+
+    return sales / total_assets
+
+
 import pandas as pd
 
 def validate_opm(
