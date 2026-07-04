@@ -256,5 +256,70 @@ finally:
         conn,
     )
 
+comparison_df = pd.read_sql(
+    """
+    SELECT
+        fr.company_id,
+        fr.year,
+        ROUND(fr.return_on_equity_pct, 2) AS calculated_roe,
+        c.roe_percentage AS source_roe,
+        ROUND(
+            (
+                (pl.operating_profit + pl.other_income) /
+                (bs.total_assets - bs.other_liabilities)
+            ) * 100,
+            2
+        ) AS calculated_roce,
+        c.roce_percentage AS source_roce
+    FROM financial_ratios fr
+    JOIN companies c
+        ON fr.company_id = c.id
+    JOIN profitandloss pl
+        ON fr.company_id = pl.company_id
+    AND fr.year = pl.year
+    JOIN balancesheet bs
+        ON fr.company_id = bs.company_id
+    AND fr.year = bs.year
+    WHERE fr.year = '2024-03'
+    ORDER BY fr.company_id;
+    """,
+    conn,
+)
+
+print(comparison_df.head())
+
+# --------------------------
+# D13 - ROE / ROCE Edge Case Log
+# --------------------------
+
+with open("output/ratio_edge_cases.log", "w") as f:
+
+    for _, row in comparison_df.iterrows():
+
+        roe_diff = abs(row["calculated_roe"] - row["source_roe"])
+
+        roce_diff = abs(row["calculated_roce"] - row["source_roce"])
+
+        if roe_diff > 5 or roce_diff > 5:
+
+            if row["source_roe"] < 1:
+                category = "Data Source Issue"
+
+            elif roe_diff > 20 or roce_diff > 20:
+                category = "Formula Discrepancy"
+
+            else:
+                category = "Version Difference"
+
+            f.write(f"Company : {row['company_id']}\n")
+            f.write(f"Year : {row['year']}\n")
+            f.write(f"Calculated ROE : {row['calculated_roe']}\n")
+            f.write(f"Source ROE : {row['source_roe']}\n")
+            f.write(f"Calculated ROCE : {row['calculated_roce']}\n")
+            f.write(f"Source ROCE : {row['source_roce']}\n")
+            f.write(f"Category : {category}\n")
+            f.write("-" * 60 + "\n")
+
+print("ratio_edge_cases.log generated successfully.")
 
 conn.close()

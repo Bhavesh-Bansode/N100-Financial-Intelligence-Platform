@@ -1,0 +1,336 @@
+Company : ADANIENT
+Year : 2024-03
+Calculated ROE : 8.53
+Source ROE : 13.64
+Calculated ROCE : 12.0
+Source ROCE : 11.6
+Category : Version Difference
+------------------------------------------------------------
+Company : ADANIGREEN
+Year : 2024-03
+Calculated ROE : 12.81
+Source ROE : 14.7
+Calculated ROCE : 11.49
+Source ROCE : 96.5
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : ADANIPOWER
+Year : 2024-03
+Calculated ROE : 48.28
+Source ROE : 57.1
+Calculated ROCE : 36.15
+Source ROCE : 32.2
+Category : Version Difference
+------------------------------------------------------------
+Company : AMBUJACEM
+Year : 2024-03
+Calculated ROE : 11.43
+Source ROE : 9.24
+Calculated ROCE : 18.51
+Source ROCE : 12.8
+Category : Version Difference
+------------------------------------------------------------
+Company : BAJAJFINSV
+Year : 2024-03
+Calculated ROE : 25.85
+Source ROE : 11.72
+Calculated ROCE : 11.71
+Source ROCE : 21.14
+Category : Version Difference
+------------------------------------------------------------
+Company : BAJFINANCE
+Year : 2024-03
+Calculated ROE : 18.84
+Source ROE : 22.1
+Calculated ROCE : 4.36
+Source ROCE : 11.9
+Category : Version Difference
+------------------------------------------------------------
+Company : BEL
+Year : 2024-03
+Calculated ROE : 4744.05
+Source ROE : 26.3
+Calculated ROCE : 4469.53
+Source ROCE : 34.6
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : BHARTIARTL
+Year : 2024-03
+Calculated ROE : 10.36
+Source ROE : 14.9
+Calculated ROCE : 25.15
+Source ROCE : 13.1
+Category : Version Difference
+------------------------------------------------------------
+Company : BOSCHLTD
+Year : 2024-03
+Calculated ROE : 20.64
+Source ROE : 16.0
+Calculated ROCE : 30.25
+Source ROCE : 20.6
+Category : Version Difference
+------------------------------------------------------------
+Company : BPCL
+Year : 2024-03
+Calculated ROE : 35.51
+Source ROE : 41.9
+Calculated ROCE : 36.18
+Source ROCE : 32.1
+Category : Version Difference
+------------------------------------------------------------
+Company : BRITANNIA
+Year : 2024-03
+Calculated ROE : 54.15
+Source ROE : 57.1
+Calculated ROCE : 56.23
+Source ROCE : 48.9
+Category : Version Difference
+------------------------------------------------------------
+Company : CHOLAFIN
+Year : 2024-03
+Calculated ROE : 17.46
+Source ROE : 20.2
+Calculated ROCE : 3.51
+Source ROCE : 10.4
+Category : Version Difference
+------------------------------------------------------------
+Company : CIPLA
+Year : 2024-03
+Calculated ROE : 15.55
+Source ROE : 16.8
+Calculated ROCE : 71.54
+Source ROCE : 22.8
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : COALINDIA
+Year : 2024-03
+Calculated ROE : 45.17
+Source ROE : 52.0
+Calculated ROCE : 105.75
+Source ROCE : 63.6
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : GODREJCP
+Year : 2024-03
+Calculated ROE : -4.45
+Source ROE : 6.77
+Calculated ROCE : 4.73
+Source ROCE : 26.49
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : HAL
+Year : 2024-03
+Calculated ROE : 3816.58
+Source ROE : 28.9
+Calculated ROCE : 3606.19
+Source ROCE : 38.9
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : HCLTECH
+Year : 2024-03
+Calculated ROE : 23.01
+Source ROE : 23.3
+Calculated ROCE : 34.71
+Source ROCE : 29.6
+Category : Version Difference
+------------------------------------------------------------
+Company : HDFCLIFE
+Year : 2024-03
+Calculated ROE : 10.73
+Source ROE : 11.4
+Calculated ROCE : 646.47
+Source ROCE : 6.61
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : HEROMOTOCO
+Year : 2024-03
+Calculated ROE : 21.14
+Source ROE : 22.0
+Calculated ROCE : 177.91
+Source ROCE : 29.1
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : HINDALCO
+Year : 2024-03
+Calculated ROE : 9.57
+Source ROE : 10.2
+Calculated ROCE : 118.21
+Source ROCE : 11.3
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : HINDUNILVR
+Year : 2024-03
+Calculated ROE : 20.07
+Source ROE : 20.2
+Calculated ROCE : 89.68
+Source ROCE : 27.2
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : ICICIGI
+Year : 2024-03
+Calculated ROE : 15.72
+Source ROE : 17.0
+Calculated ROCE : 146.43
+Source ROCE : 22.5
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : ICICIPRULI
+Year : 2024-03
+Calculated ROE : 7.73
+Source ROE : 8.07
+Calculated ROCE : 754.89
+Source ROCE : 8.75
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : INDIGO
+Year : 2024-03
+Calculated ROE : 892.57
+Source ROE : nan
+Calculated ROCE : 5643.45
+Source ROCE : 24.5
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : IRCTC
+Year : 2024-03
+Calculated ROE : 34.4
+Source ROE : 40.4
+Calculated ROCE : 47.78
+Source ROCE : 53.8
+Category : Version Difference
+------------------------------------------------------------
+Company : LICI
+Year : 2024-03
+Calculated ROE : 49.45
+Source ROE : 63.61
+Calculated ROCE : 57.53
+Source ROCE : 63.79
+Category : Version Difference
+------------------------------------------------------------
+Company : LT
+Year : 2024-03
+Calculated ROE : 77.67
+Source ROE : 10.49
+Calculated ROCE : 152.63
+Source ROCE : 17.18
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : M&M
+Year : 2024-03
+Calculated ROE : 18.54
+Source ROE : 17.99
+Calculated ROCE : 16.12
+Source ROCE : 26.98
+Category : Version Difference
+------------------------------------------------------------
+Company : MOTHERSON
+Year : 2024-03
+Calculated ROE : 11.55
+Source ROE : 11.8
+Calculated ROCE : 20.54
+Source ROCE : 13.7
+Category : Version Difference
+------------------------------------------------------------
+Company : NESTLEIND
+Year : 2024-03
+Calculated ROE : 117.75
+Source ROE : 135.61
+Calculated ROCE : 162.06
+Source ROCE : 185.43
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : PFC
+Year : 2024-03
+Calculated ROE : 26.16
+Source ROE : 19.49
+Calculated ROCE : 3.49
+Source ROCE : 9.96
+Category : Version Difference
+------------------------------------------------------------
+Company : PNB
+Year : 2024-03
+Calculated ROE : 61.32
+Source ROE : 8.7
+Calculated ROCE : nan
+Source ROCE : 1.63
+Category : Formula Discrepancy
+------------------------------------------------------------
+Company : POWERGRID
+Year : 2024-03
+Calculated ROE : 17.87
+Source ROE : 19.0
+Calculated ROCE : 19.17
+Source ROCE : 13.2
+Category : Version Difference
+------------------------------------------------------------
+Company : SHREECEM
+Year : 2024-03
+Calculated ROE : 8.37
+Source ROE : 12.2
+Calculated ROCE : 22.88
+Source ROCE : 14.8
+Category : Version Difference
+------------------------------------------------------------
+Company : SHRIRAMFIN
+Year : 2024-03
+Calculated ROE : 15.12
+Source ROE : 15.9
+Calculated ROCE : 4.32
+Source ROCE : 11.3
+Category : Version Difference
+------------------------------------------------------------
+Company : TATAMOTORS
+Year : 2024-03
+Calculated ROE : 37.46
+Source ROE : 49.4
+Calculated ROCE : 33.93
+Source ROCE : 20.1
+Category : Version Difference
+------------------------------------------------------------
+Company : TATAPOWER
+Year : 2024-03
+Calculated ROE : 13.23
+Source ROE : 11.3
+Calculated ROCE : 16.45
+Source ROCE : 11.1
+Category : Version Difference
+------------------------------------------------------------
+Company : TATASTEEL
+Year : 2024-03
+Calculated ROE : -5.33
+Source ROE : 6.55
+Calculated ROCE : 9.07
+Source ROCE : 7.02
+Category : Version Difference
+------------------------------------------------------------
+Company : TCS
+Year : 2024-03
+Calculated ROE : 50.94
+Source ROE : 0.52
+Calculated ROCE : 68.78
+Source ROCE : 64.3
+Category : Data Source Issue
+------------------------------------------------------------
+Company : TECHM
+Year : 2024-03
+Calculated ROE : 8.99
+Source ROE : 8.63
+Calculated ROCE : 18.6
+Source ROCE : 11.9
+Category : Version Difference
+------------------------------------------------------------
+Company : TORNTPHARM
+Year : 2024-03
+Calculated ROE : 24.15
+Source ROE : 24.2
+Calculated ROCE : 32.3
+Source ROCE : 23.2
+Category : Version Difference
+------------------------------------------------------------
+Company : TRENT
+Year : 2024-03
+Calculated ROE : 36.31
+Source ROE : 27.2
+Calculated ROCE : 50.85
+Source ROCE : 23.8
+Category : Formula Discrepancy
+------------------------------------------------------------
