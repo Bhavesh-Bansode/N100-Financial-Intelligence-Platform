@@ -99,7 +99,8 @@ def get_latest_data():
 def apply_filters(df, filters):
 
     data = df.copy()
-
+    if filters is None:
+        filters = {}
     for metric in filters:
 
         value = filters[metric]
@@ -163,6 +164,9 @@ def apply_filters(df, filters):
         elif metric == "sales_min":
             data = data[data["sales"] >= value]
 
+        else:
+            print(f"Unknown filter : {metric}")
+
     return data
 
 def calculate_score(df):
@@ -188,32 +192,17 @@ def calculate_score(df):
 if __name__ == "__main__":
 
     df = get_latest_data()
+    presets = load_config()
 
-    filters = load_config()
+    for name, filters in presets.items():
 
-    result = apply_filters(
-        df,
-        filters,
-    )
+        if name == "turnaround_watch":
+            print(f"{name} : Skipped")
+            continue
 
-    result = calculate_score(result)
+        result = apply_filters(df, filters)
+        result = calculate_score(result)
 
-    print("Filters Used")
-    print(filters)
+        print(f"{name} -> {len(result)} companies")
 
-    print()
-
-    print("Companies Found :", len(result))
-
-    print()
-
-    print(
-        result[
-            [
-                "company_id",
-                "return_on_equity_pct",
-                "debt_to_equity",
-                "composite_quality_score",
-            ]
-        ].head(10)
-    )
+    

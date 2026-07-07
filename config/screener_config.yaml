@@ -1,15 +1,32 @@
-roe_min: 20
-de_max: 1
-fcf_min: 0
-revenue_cagr_min: 10
-pat_cagr_min:
-opm_min:
-pe_max:
-pb_max:
-dividend_yield_min:
-icr_min:
-market_cap_min:
-net_profit_min:
-eps_cagr_min:
-asset_turnover_min:
-sales_min:
+quality_compounder:
+  roe_min: 15
+  de_max: 1
+  fcf_min: 0
+  revenue_cagr_min: 10
+
+value_pick:
+  pe_max: 25
+  pb_max: 5
+  de_max: 2
+  dividend_yield_min: 1
+
+growth_accelerator:
+  pat_cagr_min: 20
+  revenue_cagr_min: 15
+  de_max: 2
+
+dividend_champion:
+  dividend_yield_min: 2
+  fcf_min: 0
+
+debt_free_blue_chip:
+  de_max: 0
+  roe_min: 12
+  sales_min: 5000
+
+turnaround_watch:
+# TODO :
+# Requires:
+# revenue_cagr_3yr
+# debt_declining
+# latest_fcf_positive
