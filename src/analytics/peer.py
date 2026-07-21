@@ -1,5 +1,7 @@
 import sqlite3
 import os
+from openpyxl.styles import PatternFill, Font
+from openpyxl.utils import get_column_letter
 import pandas as pd
 DB_PATH = "data/nifty100.db"
 
@@ -218,37 +220,177 @@ def get_peer_comparison(df, company):
 
     return peer
 
-def export_peer_comparison(peer, company):
+def export_peer_comparison(df):
+
     os.makedirs(
         "output",
         exist_ok=True,
     )
-    peer = peer[
-        [
-            "company_id",
-            "company_name",
-            "broad_sector",
-            "sub_sector",
-            "roe_percentile",
-            "roce_percentile",
-            "npm_percentile",
-            "revenue_cagr_percentile",
-            "pat_cagr_percentile",
-            "eps_cagr_percentile",
-            "asset_turnover_percentile",
-            "interest_coverage_percentile",
-            "fcf_percentile",
-            "de_percentile",
-        ]
-    ]
 
-    peer.to_excel(
-        f"output/{company}_peer_comparison.xlsx",
-        index=False,
+    writer = pd.ExcelWriter(
+        "output/peer_comparison.xlsx",
+        engine="openpyxl",
     )
 
-    print(f"{company}_peer_comparison.xlsx created.")
+    percentile_columns = [
+        "roe_percentile",
+        "roce_percentile",
+        "npm_percentile",
+        "revenue_cagr_percentile",
+        "pat_cagr_percentile",
+        "eps_cagr_percentile",
+        "asset_turnover_percentile",
+        "interest_coverage_percentile",
+        "fcf_percentile",
+        "de_percentile",
+    ]
 
+    green = PatternFill(
+        start_color="C6EFCE",
+        end_color="C6EFCE",
+        fill_type="solid"
+    )
+
+    yellow = PatternFill(
+        start_color="FFEB9C",
+        end_color="FFEB9C",
+        fill_type="solid"
+    )
+
+    red = PatternFill(
+        start_color="FFC7CE",
+        end_color="FFC7CE",
+        fill_type="solid"
+    )
+
+    amber = PatternFill(
+        start_color="FFD966",
+        end_color="FFD966",
+        fill_type="solid"
+    )
+
+    for sector in sorted(df["broad_sector"].dropna().unique()):
+
+        peer = df[
+            df["broad_sector"] == sector
+        ].copy()
+
+        peer = peer.sort_values(
+            "roe_percentile",
+            ascending=False,
+        )
+
+        peer = peer.reset_index(drop=True)
+
+        peer.to_excel(
+            writer,
+            sheet_name=sector[:31],
+            index=False,
+        )
+
+        sheet = writer.sheets[sector[:31]]
+
+        sheet.freeze_panes = "A2"
+
+        sheet.auto_filter.ref = sheet.dimensions
+
+        for cell in sheet[1]:
+            cell.font = Font(
+                bold=True
+            )
+
+        for column in sheet.columns:
+
+            width = 0
+
+            letter = get_column_letter(
+                column[0].column
+            )
+
+            for cell in column:
+
+                if cell.value is not None:
+
+                    width = max(
+                        width,
+                        len(str(cell.value))
+                    )
+
+            sheet.column_dimensions[
+                letter
+            ].width = width + 2
+
+        for row in range(2, sheet.max_row + 1):
+
+            for col in range(1, sheet.max_column + 1):
+
+                header = sheet.cell(
+                    row=1,
+                    column=col
+                ).value
+
+                if header not in percentile_columns:
+                    continue
+
+                cell = sheet.cell(
+                    row=row,
+                    column=col
+                )
+
+                if cell.value is None:
+                    continue
+
+                if cell.value >= 75:
+
+                    cell.fill = green
+
+                elif cell.value >= 25:
+
+                    cell.fill = yellow
+
+                else:
+
+                    cell.fill = red
+
+        if sheet.max_row >= 2:
+
+            for cell in sheet[2]:
+                cell.fill = amber
+
+        median_row = sheet.max_row + 1
+
+        sheet.cell(
+            row=median_row,
+            column=1
+        ).value = "Median"
+
+        for col in range(1, sheet.max_column + 1):
+
+            header = sheet.cell(
+                row=1,
+                column=col
+            ).value
+
+            if header in percentile_columns:
+
+                sheet.cell(
+                    row=median_row,
+                    column=col
+                ).value = round(
+                    peer[header].median(),
+                    2
+                )
+
+        for cell in sheet[median_row]:
+            cell.font = Font(
+                bold=True
+            )
+
+    writer.close()
+
+    print(
+        "peer_comparison.xlsx created."
+    )
 if __name__ == "__main__":
 
     df = prepare_data()
@@ -257,12 +399,20 @@ if __name__ == "__main__":
 
     save_peer_percentiles(df)
 
-    peer = get_peer_comparison(
-        df,
-        "TCS",
-    )
+    export_peer_comparison(df)
+    it = df[
+        df["broad_sector"] == "Information Technology"
+    ]
 
-    export_peer_comparison(
-        peer,
-        "TCS",
+    print(
+        it[
+            [
+                "company_id",
+                "return_on_equity_pct",
+                "roe_percentile",
+            ]
+        ].sort_values(
+            "roe_percentile",
+            ascending=False,
+        )
     )

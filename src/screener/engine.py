@@ -420,6 +420,12 @@ def export_screener(presets, df):
         )
 
         result = result.reset_index(drop=True)
+        result.insert(
+            0,
+            "Rank",
+            range(1, len(result) + 1)
+        )
+
         result.to_excel(
             writer,
             sheet_name=name.replace("_", " ").title()[:31],
@@ -428,7 +434,7 @@ def export_screener(presets, df):
         sheet = writer.sheets[
             name.replace("_", " ").title()[:31]
         ]
-
+        sheet.freeze_panes = "A2"
         green = PatternFill(
             start_color="C6EFCE",
             end_color="C6EFCE",
@@ -634,5 +640,4 @@ if __name__ == "__main__":
         presets,
         df
     )
-
     
