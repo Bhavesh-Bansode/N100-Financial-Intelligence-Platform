@@ -1,0 +1,618 @@
+company_id,company_name,year,free_cash_flow,cfo_quality,cashflow_quality,capex_intensity,capex_label,fcf_conversion,capital_allocation_pattern,distress_flag
+ABB,Abbott India Ltd,2015-03,-1899.0,-0.15,Weak,81.43,Capital Intensive,-608.65,Growth Funded by Debt,Medium
+ABB,Abbott India Ltd,2018-03,-994.0,5.48,Excellent,96.79,Capital Intensive,-189.33,Mixed,Medium
+ABB,Abbott India Ltd,2019-03,-459.0,5.76,Excellent,82.9,Capital Intensive,-75.87,Mixed,Medium
+ABB,Abbott India Ltd,2020-03,-206.0,9.17,Excellent,137.87,Capital Intensive,-27.21,Mixed,Medium
+ABB,Abbott India Ltd,2021-03,-225.0,5.48,Excellent,93.02,Capital Intensive,-24.4,Shareholder Returns,Medium
+ABB,Abbott India Ltd,2023-03,-922.0,3.98,Excellent,87.85,Capital Intensive,-76.45,Mixed,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2015-03,-1899.0,5.0,Excellent,1422.9,Capital Intensive,-1880.2,Growth Funded by Debt,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2016-03,728.0,4.2,Excellent,37.19,Capital Intensive,37.78,Shareholder Returns,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2017-03,459.0,5.26,Excellent,60.15,Capital Intensive,23.15,Shareholder Returns,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2018-03,-994.0,1.92,Excellent,80.93,Capital Intensive,-35.17,Mixed,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2019-03,-459.0,4.64,Excellent,41.75,Capital Intensive,-16.52,Mixed,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2020-03,-206.0,7.7,Excellent,49.43,Capital Intensive,-4.84,Mixed,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2021-03,-225.0,2.93,Excellent,40.39,Capital Intensive,-5.7,Shareholder Returns,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2022-03,161.0,3.31,Excellent,34.96,Capital Intensive,3.83,Shareholder Returns,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2023-03,-922.0,2.95,Excellent,35.35,Capital Intensive,-20.41,Mixed,Medium
+ADANIENSOL,Adani Energy Solutions Ltd,2024-03,1095.0,5.05,Excellent,29.76,Capital Intensive,19.17,Shareholder Returns,Medium
+ADANIENT,Adani Enterprises Ltd,2013-03,-7124.0,6.29,Excellent,31.89,Capital Intensive,-118.32,Mixed,Medium
+ADANIENT,Adani Enterprises Ltd,2014-03,221.0,3.11,Excellent,14.57,Capital Intensive,2.36,Shareholder Returns,Medium
+ADANIENT,Adani Enterprises Ltd,2015-03,-2933.0,3.71,Excellent,17.78,Capital Intensive,-23.56,Mixed,Medium
+ADANIENT,Adani Enterprises Ltd,2016-03,3287.0,5.11,Excellent,5.37,Moderate,195.19,Shareholder Returns,Medium
+ADANIENT,Adani Enterprises Ltd,2017-03,-686.0,0.84,Average,4.0,Moderate,-36.07,Mixed,High
+ADANIENT,Adani Enterprises Ltd,2018-03,-4707.0,4.95,Excellent,21.29,Capital Intensive,-230.96,Mixed,Medium
+ADANIENT,Adani Enterprises Ltd,2021-03,-4568.0,3.87,Excellent,21.78,Capital Intensive,-182.28,Mixed,Medium
+ADANIENT,Adani Enterprises Ltd,2022-03,-15656.0,1.76,Excellent,24.55,Capital Intensive,-421.54,Mixed,Medium
+ADANIENT,Adani Enterprises Ltd,2023-03,2167.0,7.28,Excellent,12.12,Capital Intensive,24.57,Shareholder Returns,Medium
+ADANIENT,Adani Enterprises Ltd,2024-03,-8455.0,3.09,Excellent,19.46,Capital Intensive,-74.32,Mixed,Medium
+ADANIGREEN,Adani Green Energy Ltd,2017-03,-1483.0,-0.6,Weak,301.0,Capital Intensive,-367.99,Mixed,High
+ADANIGREEN,Adani Green Energy Ltd,2018-03,-3779.0,-4.7,Weak,299.19,Capital Intensive,-448.28,Mixed,High
+ADANIGREEN,Adani Green Energy Ltd,2019-03,-1041.0,-3.42,Weak,129.54,Capital Intensive,-68.22,Mixed,High
+ADANIGREEN,Adani Green Energy Ltd,2020-03,-1778.0,-28.9,Weak,146.84,Capital Intensive,-122.62,Mixed,High
+ADANIGREEN,Adani Green Energy Ltd,2021-03,-7536.0,8.8,Excellent,292.48,Capital Intensive,-336.28,Mixed,Medium
+ADANIGREEN,Adani Green Energy Ltd,2022-03,-15603.0,6.39,Excellent,364.89,Capital Intensive,-444.28,Mixed,Medium
+ADANIGREEN,Adani Green Energy Ltd,2023-03,3408.0,7.47,Excellent,49.6,Capital Intensive,68.57,Shareholder Returns,Medium
+ADANIGREEN,Adani Green Energy Ltd,2024-03,-13347.0,6.12,Excellent,228.42,Capital Intensive,-182.39,Mixed,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2013-03,-3757.0,0.84,Average,143.58,Capital Intensive,-157.72,Mixed,High
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2014-03,-1378.0,0.65,Weak,51.97,Capital Intensive,-47.21,Mixed,High
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2015-03,572.0,1.32,Excellent,40.39,Capital Intensive,14.66,Shareholder Returns,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2016-03,-1772.0,0.83,Average,58.42,Capital Intensive,-38.72,Mixed,High
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2017-03,1434.0,1.04,Good,31.15,Capital Intensive,26.47,Shareholder Returns,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2018-03,1762.0,1.52,Excellent,33.97,Capital Intensive,24.62,Shareholder Returns,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2019-03,1661.0,1.49,Excellent,39.98,Capital Intensive,25.18,Mixed,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2020-03,6653.0,1.96,Excellent,6.31,Moderate,111.87,Shareholder Returns,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2021-03,-6508.0,1.5,Excellent,112.06,Capital Intensive,-74.91,Mixed,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2022-03,4927.0,2.1,Excellent,32.09,Capital Intensive,51.71,Shareholder Returns,Medium
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",2023-03,-4816.0,2.21,Excellent,80.16,Capital Intensive,-43.99,Shareholder Returns,Medium
+ADANIPOWER,Adani Power Ltd,2013-03,-1063.0,-1.31,Weak,60.73,Capital Intensive,-110.73,Mixed,High
+ADANIPOWER,Adani Power Ltd,2014-03,-1462.0,-11.13,Weak,30.66,Capital Intensive,-31.83,Mixed,High
+ADANIPOWER,Adani Power Ltd,2015-03,1087.0,-7.14,Weak,25.35,Capital Intensive,23.24,Reinvestor,Medium
+ADANIPOWER,Adani Power Ltd,2016-03,2565.0,9.54,Excellent,10.61,Capital Intensive,29.14,Shareholder Returns,Medium
+ADANIPOWER,Adani Power Ltd,2017-03,3513.0,-0.77,Weak,5.36,Moderate,58.75,Reinvestor,Medium
+ADANIPOWER,Adani Power Ltd,2018-03,4581.0,-2.43,Weak,2.56,Asset Light,84.27,Reinvestor,Medium
+ADANIPOWER,Adani Power Ltd,2019-03,4626.0,-5.7,Weak,4.12,Moderate,92.84,Reinvestor,Medium
+ADANIPOWER,Adani Power Ltd,2020-03,3294.0,-2.46,Weak,8.7,Capital Intensive,57.45,Reinvestor,Medium
+ADANIPOWER,Adani Power Ltd,2021-03,4826.0,5.52,Excellent,8.34,Capital Intensive,55.55,Shareholder Returns,Medium
+ADANIPOWER,Adani Power Ltd,2022-03,11007.0,2.08,Excellent,2.79,Asset Light,111.4,Liquidating Assets,Medium
+ADANIPOWER,Adani Power Ltd,2023-03,9976.0,0.79,Weak,3.98,Moderate,98.81,Liquidating Assets,Medium
+AMBUJACEM,Ambuja Cements Ltd,2016-12,-1355.0,1.96,Excellent,20.73,Capital Intensive,-42.6,Shareholder Returns,Medium
+AMBUJACEM,Ambuja Cements Ltd,2023-03,-13746.0,0.24,Weak,37.19,Capital Intensive,-268.37,Mixed,Medium
+AMBUJACEM,Ambuja Cements Ltd,2024-03,-3295.0,1.19,Good,26.96,Capital Intensive,-51.48,Mixed,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2013-03,-290.0,1.46,Excellent,19.45,Capital Intensive,-47.39,Mixed,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2015-03,-289.0,1.4,Excellent,14.8,Capital Intensive,-39.21,Mixed,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2016-03,-291.0,2.54,Excellent,14.44,Capital Intensive,-42.54,Mixed,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2017-03,-529.0,4.76,Excellent,15.88,Capital Intensive,-72.07,Mixed,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2018-03,132.0,8.95,Excellent,4.91,Moderate,16.48,Shareholder Returns,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2019-03,194.0,4.53,Excellent,7.39,Moderate,18.13,Shareholder Returns,Medium
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2020-03,1004.0,2.99,Excellent,2.57,Asset Light,63.1,Shareholder Returns,Medium
+AXISBANK,Axis Bank Ltd,2013-03,-8366.0,0.5,Weak,40.24,Capital Intensive,-100.64,Mixed,High
+AXISBANK,Axis Bank Ltd,2014-03,298.0,2.33,Excellent,46.23,Capital Intensive,3.09,Mixed,Medium
+AXISBANK,Axis Bank Ltd,2015-03,-23134.0,-2.06,Weak,22.47,Capital Intensive,-207.91,Growth Funded by Debt,High
+AXISBANK,Axis Bank Ltd,2016-03,-25284.0,-4.19,Weak,22.47,Capital Intensive,-189.15,Distress Signal,High
+AXISBANK,Axis Bank Ltd,2017-03,19751.0,8.75,Excellent,27.97,Capital Intensive,82.96,Shareholder Returns,Medium
+AXISBANK,Axis Bank Ltd,2018-03,-48397.0,-139.09,Weak,21.86,Capital Intensive,-167.49,Growth Funded by Debt,High
+AXISBANK,Axis Bank Ltd,2019-03,18451.0,7.94,Excellent,33.96,Capital Intensive,67.95,Mixed,Medium
+AXISBANK,Axis Bank Ltd,2020-03,20931.0,18.69,Excellent,15.14,Capital Intensive,59.69,Mixed,Medium
+AXISBANK,Axis Bank Ltd,2021-03,-41655.0,1.92,Excellent,85.7,Capital Intensive,-131.2,Mixed,Medium
+AXISBANK,Axis Bank Ltd,2022-03,1025.0,2.16,Excellent,40.24,Capital Intensive,3.42,Mixed,Medium
+AXISBANK,Axis Bank Ltd,2023-03,-10276.0,2.3,Excellent,37.99,Capital Intensive,-35.33,Mixed,Medium
+AXISBANK,Axis Bank Ltd,2024-03,-14556.0,-0.22,Weak,8.23,Capital Intensive,-38.36,Growth Funded by Debt,High
+BAJAJ-AUTO,Bajaj Auto Ltd,2017-03,-343.0,0.8,Average,16.59,Capital Intensive,-7.74,Reinvestor,Medium
+BAJAJFINSV,Bajaj Finserv Ltd,2013-03,-3969.0,-3.13,Weak,36.66,Capital Intensive,-100.97,Distress Signal,High
+BAJAJFINSV,Bajaj Finserv Ltd,2014-03,-6043.0,-4.48,Weak,62.49,Capital Intensive,-134.56,Distress Signal,High
+BAJAJFINSV,Bajaj Finserv Ltd,2015-03,-7022.0,-4.45,Weak,32.72,Capital Intensive,-127.42,Distress Signal,High
+BAJAJFINSV,Bajaj Finserv Ltd,2016-03,-10681.0,-3.53,Weak,4.32,Moderate,-158.5,Growth Funded by Debt,High
+BAJAJFINSV,Bajaj Finserv Ltd,2017-03,-10771.0,-3.17,Weak,0.62,Asset Light,-123.62,Distress Signal,High
+BAJAJFINSV,Bajaj Finserv Ltd,2018-03,-20502.0,-4.69,Weak,2.81,Asset Light,-190.04,Growth Funded by Debt,High
+BAJAJFINSV,Bajaj Finserv Ltd,2019-03,-33979.0,-5.04,Weak,16.2,Capital Intensive,-225.97,Growth Funded by Debt,High
+BAJAJFINSV,Bajaj Finserv Ltd,2020-03,-33317.0,-3.9,Weak,18.3,Capital Intensive,-182.48,Growth Funded by Debt,High
+BAJAJFINSV,Bajaj Finserv Ltd,2021-03,863.0,0.62,Weak,6.08,Moderate,4.39,Mixed,Medium
+BAJAJFINSV,Bajaj Finserv Ltd,2022-03,-32225.0,-4.05,Weak,2.11,Asset Light,-150.2,Distress Signal,High
+BAJAJFINSV,Bajaj Finserv Ltd,2023-03,-53425.0,-3.23,Weak,16.99,Capital Intensive,-178.87,Growth Funded by Debt,High
+BAJAJFINSV,Bajaj Finserv Ltd,2024-03,-79634.0,-4.4,Weak,9.93,Capital Intensive,-194.77,Growth Funded by Debt,High
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2017-03,-1295.0,-0.37,Weak,44.18,Capital Intensive,-206.21,Pre-Revenue,Medium
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2021-03,-36.0,0.07,Weak,67.4,Capital Intensive,-10.23,Reinvestor,Medium
+BAJFINANCE,Bajaj Finance Ltd,2015-03,-7424.0,-7.87,Weak,6.68,Moderate,-423.74,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2016-03,-10557.0,-7.72,Weak,9.41,Capital Intensive,-448.47,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2017-03,-13486.0,-5.69,Weak,30.56,Capital Intensive,-414.95,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2018-03,-19491.0,-8.24,Weak,8.43,Capital Intensive,-473.66,Distress Signal,High
+BAJFINANCE,Bajaj Finance Ltd,2019-03,-34441.0,-7.27,Weak,29.1,Capital Intensive,-631.48,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2020-03,-33170.0,-4.64,Weak,33.21,Capital Intensive,-362.16,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2021-03,-1236.0,-0.18,Weak,1.61,Asset Light,-11.4,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2022-03,-30743.0,-5.28,Weak,20.06,Capital Intensive,-258.78,Distress Signal,High
+BAJFINANCE,Bajaj Finance Ltd,2023-03,-52506.0,-3.66,Weak,25.1,Capital Intensive,-413.66,Growth Funded by Debt,High
+BAJFINANCE,Bajaj Finance Ltd,2024-03,-79931.0,-5.03,Weak,13.04,Capital Intensive,-496.5,Growth Funded by Debt,High
+BANKBARODA,Bank of Baroda,2013-03,22682.0,4.8,Excellent,1.41,Asset Light,207.14,Shareholder Returns,Medium
+BANKBARODA,Bank of Baroda,2014-03,41503.0,8.39,Excellent,1.8,Asset Light,344.45,Mixed,Medium
+BANKBARODA,Bank of Baroda,2015-03,17282.0,4.52,Excellent,1.24,Asset Light,128.34,Shareholder Returns,Medium
+BANKBARODA,Bank of Baroda,2016-03,-14016.0,1.99,Excellent,8.74,Capital Intensive,-55.2,Pre-Revenue,Medium
+BANKBARODA,Bank of Baroda,2017-03,17314.0,9.63,Excellent,1.24,Asset Light,89.94,Shareholder Returns,Medium
+BANKBARODA,Bank of Baroda,2018-03,-60106.0,32.51,Excellent,0.9,Asset Light,-230.35,Growth Funded by Debt,Medium
+BANKBARODA,Bank of Baroda,2019-03,-3986.0,-1.24,Weak,4.8,Moderate,-15.44,Growth Funded by Debt,High
+BANKBARODA,Bank of Baroda,2020-03,18392.0,18.89,Excellent,0.18,Asset Light,45.32,Mixed,Medium
+BANKBARODA,Bank of Baroda,2021-03,-1358.0,-0.55,Weak,0.63,Asset Light,-3.57,Pre-Revenue,High
+BANKBARODA,Bank of Baroda,2022-03,2565.0,0.78,Weak,4.97,Moderate,6.84,Reinvestor,Medium
+BANKBARODA,Bank of Baroda,2023-03,-22450.0,-1.42,Weak,1.16,Asset Light,-58.72,Pre-Revenue,High
+BANKBARODA,Bank of Baroda,2024-03,-7559.0,-0.33,Weak,1.09,Asset Light,-17.03,Growth Funded by Debt,High
+BEL,Bharat Electronics Ltd,2013-03,214.0,-1.69,Weak,27.95,Capital Intensive,31.99,Unclassified,Medium
+BEL,Bharat Electronics Ltd,2014-03,190.0,-0.6,Weak,11.64,Capital Intensive,20.54,Unclassified,Medium
+BEL,Bharat Electronics Ltd,2015-03,595.0,1.2,Excellent,11.83,Capital Intensive,50.47,Shareholder Returns,Medium
+BEL,Bharat Electronics Ltd,2016-03,790.0,1.69,Excellent,19.99,Capital Intensive,56.71,Shareholder Returns,Medium
+BEL,Bharat Electronics Ltd,2017-03,3054.0,-0.04,Weak,35.99,Capital Intensive,170.42,Unclassified,Medium
+BEL,Bharat Electronics Ltd,2018-03,-693.0,-0.48,Weak,0.06,Asset Light,-33.99,Pre-Revenue,High
+BEL,Bharat Electronics Ltd,2022-03,-665.0,1.75,Excellent,31.7,Capital Intensive,-19.89,Shareholder Returns,Medium
+BEL,Bharat Electronics Ltd,2024-03,-1265.0,1.17,Good,29.23,Capital Intensive,-25.04,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2013-03,3932.0,9.97,Excellent,24.27,Capital Intensive,17.13,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2014-03,1052.0,8.69,Excellent,29.33,Capital Intensive,3.97,Mixed,Medium
+BHARTIARTL,Bharti Airtel Ltd,2015-03,5758.0,5.56,Excellent,23.21,Capital Intensive,17.14,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2016-03,13851.0,4.05,Excellent,14.6,Capital Intensive,40.76,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2017-03,-2400.0,6.67,Excellent,32.14,Capital Intensive,-6.79,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2018-03,1914.0,13.67,Excellent,33.81,Capital Intensive,6.36,Mixed,Medium
+BHARTIARTL,Bharti Airtel Ltd,2019-03,-8216.0,11.89,Excellent,35.02,Capital Intensive,-31.89,Mixed,Medium
+BHARTIARTL,Bharti Airtel Ltd,2020-03,-11469.0,-0.59,Weak,33.81,Capital Intensive,-31.33,Mixed,High
+BHARTIARTL,Bharti Airtel Ltd,2021-03,20919.0,-3.9,Weak,27.12,Capital Intensive,46.2,Reinvestor,Medium
+BHARTIARTL,Bharti Airtel Ltd,2022-03,13539.0,6.62,Excellent,35.59,Capital Intensive,23.53,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2023-03,26093.0,5.32,Excellent,28.2,Capital Intensive,36.61,Shareholder Returns,Medium
+BHARTIARTL,Bharti Airtel Ltd,2024-03,27809.0,9.22,Excellent,34.06,Capital Intensive,35.52,Shareholder Returns,Medium
+BHEL,"Bharat Heavy Electricals Limited
+",2017-03,-5.0,1.23,Excellent,1.98,Asset Light,-0.46,Shareholder Returns,Medium
+BHEL,"Bharat Heavy Electricals Limited
+",2019-03,-1941.0,-3.85,Weak,6.3,Moderate,-95.52,Unclassified,Medium
+BHEL,"Bharat Heavy Electricals Limited
+",2020-03,-1015.0,1.97,Excellent,8.75,Capital Intensive,763.16,Distress Signal,Medium
+BHEL,"Bharat Heavy Electricals Limited
+",2022-03,-458.0,1.48,Excellent,5.27,Moderate,-55.31,Shareholder Returns,Medium
+BHEL,"Bharat Heavy Electricals Limited
+",2024-03,-2382.0,-13.17,Weak,5.57,Moderate,-335.02,Distress Signal,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2013-03,2322.0,3.06,Excellent,1.49,Asset Light,34.61,Shareholder Returns,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2014-03,2707.0,2.37,Excellent,2.6,Asset Light,28.76,Shareholder Returns,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2015-03,10206.0,4.08,Excellent,4.34,Moderate,104.36,Shareholder Returns,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2017-03,-6233.0,0.95,Average,7.59,Moderate,-45.22,Mixed,High
+BPCL,Bharat Petroleum Corporation Ltd,2018-03,4002.0,1.13,Good,3.0,Moderate,26.13,Shareholder Returns,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2019-03,-294.0,1.19,Good,3.5,Moderate,-1.95,Mixed,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2020-03,-3254.0,2.15,Excellent,3.91,Moderate,-36.26,Mixed,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2021-03,20981.0,1.35,Excellent,1.07,Asset Light,99.9,Shareholder Returns,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2022-03,12198.0,1.74,Excellent,2.35,Asset Light,63.74,Shareholder Returns,Medium
+BPCL,Bharat Petroleum Corporation Ltd,2023-03,4660.0,5.85,Excellent,1.65,Asset Light,42.76,Shareholder Returns,Medium
+BRITANNIA,Britannia Industries Ltd,2020-03,-41.0,1.07,Good,13.16,Capital Intensive,-2.22,Mixed,Medium
+CANBK,Canara Bank,2013-03,7575.0,2.67,Excellent,1.28,Asset Light,104.96,Shareholder Returns,Medium
+CANBK,Canara Bank,2014-03,13864.0,5.33,Excellent,0.96,Asset Light,143.88,Shareholder Returns,Medium
+CANBK,Canara Bank,2015-03,5240.0,2.16,Excellent,2.52,Asset Light,50.86,Shareholder Returns,Medium
+CANBK,Canara Bank,2016-03,8903.0,-3.69,Weak,1.01,Asset Light,50.06,Reinvestor,Medium
+CANBK,Canara Bank,2017-03,2099.0,1.82,Excellent,1.15,Asset Light,13.38,Mixed,Medium
+CANBK,Canara Bank,2018-03,-11607.0,2.87,Excellent,1.18,Asset Light,-45.37,Growth Funded by Debt,Medium
+CANBK,Canara Bank,2019-03,17492.0,26.2,Excellent,1.55,Asset Light,64.3,Shareholder Returns,Medium
+CANBK,Canara Bank,2020-03,-5734.0,2.75,Excellent,0.89,Asset Light,-21.39,Growth Funded by Debt,Medium
+CANBK,Canara Bank,2021-03,58002.0,19.99,Excellent,1.59,Asset Light,133.53,Mixed,Medium
+CANBK,Canara Bank,2022-03,-510.0,0.15,Weak,2.02,Asset Light,-1.24,Mixed,High
+CANBK,Canara Bank,2023-03,-41134.0,-3.52,Weak,1.35,Asset Light,-96.17,Growth Funded by Debt,High
+CANBK,Canara Bank,2024-03,13296.0,0.98,Average,1.58,Asset Light,28.81,Reinvestor,Medium
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2013-03,-3749.0,-12.19,Weak,0.19,Asset Light,-544.91,Distress Signal,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2014-03,-2530.0,-6.65,Weak,2.53,Asset Light,-271.46,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2015-03,-2304.0,-5.1,Weak,1.08,Asset Light,-217.15,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2016-03,-2946.0,-4.89,Weak,3.25,Moderate,-232.7,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2017-03,-1690.0,-2.04,Weak,4.73,Moderate,-127.84,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2018-03,-7986.0,-8.63,Weak,1.08,Asset Light,-550.38,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2019-03,-9328.0,-7.78,Weak,0.15,Asset Light,-571.57,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2020-03,-2129.0,-1.97,Weak,0.62,Asset Light,-87.94,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2021-03,-10594.0,-5.82,Weak,18.22,Capital Intensive,-363.68,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2022-03,-3931.0,-2.59,Weak,16.16,Capital Intensive,-134.35,Distress Signal,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2023-03,-29253.0,-10.17,Weak,16.67,Capital Intensive,-807.87,Growth Funded by Debt,High
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2024-03,-38538.0,-10.43,Weak,14.9,Capital Intensive,-715.65,Growth Funded by Debt,High
+CIPLA,"Cipla Ltd
+",2013-03,-665.0,0.9,Average,24.92,Capital Intensive,-10.96,Mixed,Medium
+CIPLA,"Cipla Ltd
+",2016-03,-2792.0,1.26,Excellent,32.87,Capital Intensive,-24.69,Mixed,Medium
+DIVISLAB,Divis Laboratories Ltd,2022-03,-283.0,0.65,Weak,24.5,Capital Intensive,-7.28,Reinvestor,Medium
+DIVISLAB,Divis Laboratories Ltd,2023-03,-248.0,1.35,Excellent,34.85,Capital Intensive,-10.46,Shareholder Returns,Medium
+DLF,DLF Ltd,2013-03,4004.0,3.01,Excellent,25.67,Capital Intensive,152.07,Liquidating Assets,Medium
+DLF,DLF Ltd,2016-03,2139.0,9.7,Excellent,8.24,Capital Intensive,53.93,Shareholder Returns,Medium
+DLF,DLF Ltd,2017-03,-26.0,-1.27,Weak,10.61,Capital Intensive,-0.75,Distress Signal,High
+DLF,DLF Ltd,2018-03,-1832.0,0.06,Weak,31.34,Capital Intensive,-77.04,Reinvestor,Medium
+DMART,Avenue Supermarts Ltd,2013-03,-104.0,1.35,Excellent,6.91,Moderate,-48.37,Mixed,Medium
+DMART,Avenue Supermarts Ltd,2014-03,-72.0,1.23,Excellent,5.76,Moderate,-21.11,Mixed,Medium
+DMART,Avenue Supermarts Ltd,2015-03,-252.0,1.05,Good,7.36,Moderate,-55.26,Mixed,Medium
+DMART,Avenue Supermarts Ltd,2016-03,-200.0,1.35,Excellent,7.37,Moderate,-30.12,Mixed,Medium
+DMART,Avenue Supermarts Ltd,2017-03,-2027.0,0.95,Average,20.86,Capital Intensive,-209.18,Mixed,Medium
+DMART,Avenue Supermarts Ltd,2019-03,-151.0,0.89,Average,4.79,Moderate,-9.25,Mixed,Medium
+DMART,Avenue Supermarts Ltd,2020-03,-3377.0,0.98,Average,18.73,Capital Intensive,-158.69,Mixed,Medium
+DRREDDY,Dr Reddys Laboratories Ltd,2013-03,-59.0,0.9,Average,12.14,Capital Intensive,-2.21,Reinvestor,Medium
+EICHERMOT,Eicher Motors Ltd,2012-12,-277.0,1.04,Good,12.1,Capital Intensive,-50.36,Shareholder Returns,Medium
+EICHERMOT,Eicher Motors Ltd,2013-12,-74.0,1.36,Excellent,11.6,Capital Intensive,-10.35,Shareholder Returns,Medium
+EICHERMOT,Eicher Motors Ltd,2014-12,-167.0,1.49,Excellent,13.89,Capital Intensive,-14.94,Shareholder Returns,Medium
+EICHERMOT,Eicher Motors Ltd,2017-03,-36.0,1.02,Good,24.8,Capital Intensive,-1.66,Mixed,Medium
+GAIL,GAIL (India) Ltd,2013-03,-2023.0,1.51,Excellent,16.92,Capital Intensive,-27.24,Mixed,Medium
+GAIL,GAIL (India) Ltd,2023-03,-4248.0,0.57,Weak,5.12,Moderate,-56.64,Mixed,Medium
+GODREJCP,Godrej Consumer Products Ltd,2013-03,-45.0,0.97,Average,13.49,Capital Intensive,-4.52,Mixed,Medium
+GODREJCP,Godrej Consumer Products Ltd,2015-03,-209.0,1.05,Good,14.94,Capital Intensive,-15.16,Shareholder Returns,Medium
+GODREJCP,Godrej Consumer Products Ltd,2017-03,-383.0,1.42,Excellent,24.2,Capital Intensive,-20.08,Mixed,Medium
+GODREJCP,Godrej Consumer Products Ltd,2024-03,-1365.0,-3.69,Weak,24.37,Capital Intensive,-46.16,Mixed,Medium
+GRASIM,Grasim Industries Ltd,2013-03,-1445.0,1.12,Good,20.38,Capital Intensive,-24.39,Mixed,Medium
+GRASIM,Grasim Industries Ltd,2018-03,-2594.0,-1.12,Weak,2.77,Asset Light,-22.34,Distress Signal,High
+GRASIM,Grasim Industries Ltd,2019-03,-3871.0,-0.6,Weak,2.87,Asset Light,-23.26,Growth Funded by Debt,High
+GRASIM,Grasim Industries Ltd,2020-03,5256.0,2.5,Excellent,16.65,Capital Intensive,50.67,Shareholder Returns,Medium
+GRASIM,Grasim Industries Ltd,2021-03,7929.0,2.16,Excellent,9.35,Capital Intensive,42.55,Shareholder Returns,Medium
+GRASIM,Grasim Industries Ltd,2023-03,-26397.0,-1.15,Weak,11.66,Capital Intensive,-122.27,Growth Funded by Debt,High
+GRASIM,Grasim Industries Ltd,2024-03,-33833.0,-1.08,Weak,17.65,Capital Intensive,-124.41,Growth Funded by Debt,High
+HAL,Hindustan Aeronautics Ltd,2018-03,-140.0,-0.37,Weak,3.21,Moderate,-4.05,Unclassified,Medium
+HAL,Hindustan Aeronautics Ltd,2019-03,-2402.0,-3.28,Weak,26.45,Capital Intensive,-52.57,Distress Signal,Medium
+HAL,Hindustan Aeronautics Ltd,2022-03,-2609.0,2.0,Excellent,51.95,Capital Intensive,-48.14,Shareholder Returns,Medium
+HAVELLS,Havells India Ltd,2021-03,-103.0,0.63,Weak,7.3,Moderate,-6.48,Mixed,Medium
+HDFCBANK,HDFC Bank Ltd,2013-03,-6749.0,-0.85,Weak,2.52,Asset Light,-53.43,Growth Funded by Debt,High
+HDFCBANK,HDFC Bank Ltd,2014-03,3112.0,0.48,Weak,2.58,Asset Light,23.04,Mixed,Medium
+HDFCBANK,HDFC Bank Ltd,2015-03,-22081.0,-1.99,Weak,1.58,Asset Light,-136.61,Growth Funded by Debt,High
+HDFCBANK,HDFC Bank Ltd,2016-03,-35272.0,-2.69,Weak,1.33,Asset Light,-175.88,Growth Funded by Debt,High
+HDFCBANK,HDFC Bank Ltd,2017-03,16136.0,1.13,Good,1.56,Asset Light,67.64,Shareholder Returns,Medium
+HDFCBANK,HDFC Bank Ltd,2018-03,16372.0,0.93,Average,0.99,Asset Light,55.44,Mixed,Medium
+HDFCBANK,HDFC Bank Ltd,2019-03,-64375.0,-2.8,Weak,1.43,Asset Light,-184.69,Growth Funded by Debt,High
+HDFCBANK,HDFC Bank Ltd,2020-03,-18272.0,-0.62,Weak,1.15,Asset Light,-40.19,Growth Funded by Debt,High
+HDFCBANK,HDFC Bank Ltd,2021-03,40653.0,1.33,Excellent,1.42,Asset Light,77.5,Shareholder Returns,Medium
+HDFCBANK,HDFC Bank Ltd,2022-03,-14011.0,-0.31,Weak,1.51,Asset Light,-24.77,Growth Funded by Debt,High
+HDFCBANK,HDFC Bank Ltd,2023-03,17822.0,0.45,Weak,1.75,Asset Light,28.27,Mixed,Medium
+HDFCBANK,HDFC Bank Ltd,2024-03,35669.0,0.29,Weak,5.85,Moderate,20.48,Liquidating Assets,Medium
+HDFCLIFE,HDFC Life Insurance Company Ltd,2019-03,-314.0,7.72,Excellent,26.21,Capital Intensive,-0.83,Shareholder Returns,Medium
+HDFCLIFE,HDFC Life Insurance Company Ltd,2020-03,-401.0,5.7,Excellent,26.51,Capital Intensive,-1.42,Mixed,Medium
+HDFCLIFE,HDFC Life Insurance Company Ltd,2023-03,-3188.0,5.03,Excellent,14.34,Capital Intensive,-4.55,Mixed,Medium
+HDFCLIFE,HDFC Life Insurance Company Ltd,2024-03,-2893.0,6.81,Excellent,13.42,Capital Intensive,-2.87,Shareholder Returns,Medium
+HINDALCO,Hindalco Industries Ltd,2013-03,-10824.0,0.99,Average,17.21,Capital Intensive,-14.93,Mixed,High
+HINDALCO,Hindalco Industries Ltd,2014-03,-139.0,3.62,Excellent,9.23,Capital Intensive,-0.17,Mixed,Medium
+HINDALCO,Hindalco Industries Ltd,2015-03,3270.0,27.58,Excellent,3.71,Moderate,3.43,Shareholder Returns,Medium
+HINDALCO,Hindalco Industries Ltd,2016-03,8468.0,-16.65,Weak,3.26,Moderate,9.31,Reinvestor,Medium
+HINDALCO,Hindalco Industries Ltd,2017-03,9811.0,6.74,Excellent,2.87,Asset Light,11.17,Shareholder Returns,Medium
+HINDALCO,Hindalco Industries Ltd,2020-03,5518.0,3.38,Excellent,6.12,Moderate,5.31,Mixed,Medium
+HINDALCO,Hindalco Industries Ltd,2021-03,-8048.0,4.95,Excellent,19.15,Capital Intensive,-7.03,Shareholder Returns,Medium
+ICICIBANK,ICICI Bank Ltd,2013-03,-1069.0,1.73,Excellent,41.36,Capital Intensive,-3.37,Mixed,Medium
+ICICIBANK,ICICI Bank Ltd,2014-03,-8985.0,0.58,Weak,31.83,Capital Intensive,-27.35,Mixed,High
+ICICIBANK,ICICI Bank Ltd,2015-03,-25448.0,-0.95,Weak,23.97,Capital Intensive,-65.65,Growth Funded by Debt,High
+ICICIBANK,ICICI Bank Ltd,2016-03,11585.0,2.16,Excellent,20.34,Capital Intensive,22.17,Mixed,Medium
+ICICIBANK,ICICI Bank Ltd,2017-03,50925.0,4.64,Excellent,2.81,Asset Light,79.77,Shareholder Returns,Medium
+ICICIBANK,ICICI Bank Ltd,2018-03,-31168.0,2.13,Excellent,81.32,Capital Intensive,-42.81,Mixed,Medium
+ICICIBANK,ICICI Bank Ltd,2019-03,18389.0,8.56,Excellent,42.07,Capital Intensive,21.95,Shareholder Returns,Medium
+ICICIBANK,ICICI Bank Ltd,2020-03,37470.0,7.09,Excellent,49.62,Capital Intensive,43.9,Mixed,Medium
+ICICIBANK,ICICI Bank Ltd,2021-03,74384.0,6.78,Excellent,71.36,Capital Intensive,81.46,Shareholder Returns,Medium
+ICICIBANK,ICICI Bank Ltd,2022-03,18663.0,2.19,Excellent,41.35,Capital Intensive,23.1,Mixed,Medium
+ICICIBANK,ICICI Bank Ltd,2023-03,-71460.0,-0.11,Weak,55.91,Capital Intensive,-81.33,Growth Funded by Debt,High
+ICICIBANK,ICICI Bank Ltd,2024-03,12547.0,3.41,Excellent,90.74,Capital Intensive,12.6,Mixed,Medium
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2014-03,-111.0,1.14,Good,16.22,Capital Intensive,-2.42,Mixed,Medium
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2017-03,-362.0,2.32,Excellent,26.46,Capital Intensive,-5.48,Mixed,Medium
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2013-03,-1077.0,-1.74,Weak,7.81,Moderate,-5.59,Unclassified,Medium
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2015-03,-1299.0,0.32,Weak,5.29,Moderate,-3.96,Reinvestor,Medium
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2020-03,-2201.0,8.06,Excellent,51.35,Capital Intensive,-10.31,Shareholder Returns,Medium
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2023-03,-1056.0,0.11,Weak,2.27,Asset Light,-2.02,Reinvestor,Medium
+INDIGO,Interglobe Aviation Ltd,2013-03,-149.0,2.21,Excellent,20.54,Capital Intensive,-1.78,Mixed,Medium
+INDIGO,Interglobe Aviation Ltd,2014-03,-1319.0,3.36,Excellent,26.21,Capital Intensive,-12.35,Mixed,Medium
+INDIGO,Interglobe Aviation Ltd,2018-03,-249.0,1.74,Excellent,18.04,Capital Intensive,-1.25,Mixed,Medium
+INDUSINDBK,IndusInd Bank Ltd,2013-03,-660.0,-0.46,Weak,2.49,Asset Light,-33.9,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2014-03,-4280.0,-2.92,Weak,2.11,Asset Light,-167.51,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2015-03,-1697.0,-0.79,Weak,2.85,Asset Light,-54.17,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2016-03,-3185.0,-1.28,Weak,2.17,Asset Light,-76.05,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2017-03,11284.0,4.03,Excellent,1.98,Asset Light,198.52,Shareholder Returns,Medium
+INDUSINDBK,IndusInd Bank Ltd,2018-03,-20917.0,-5.74,Weak,1.26,Asset Light,-319.1,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2019-03,-7022.0,-1.94,Weak,2.84,Asset Light,-75.64,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2020-03,-11513.0,-2.72,Weak,1.83,Asset Light,-91.29,Distress Signal,High
+INDUSINDBK,IndusInd Bank Ltd,2021-03,44420.0,15.74,Excellent,0.78,Asset Light,277.68,Shareholder Returns,Medium
+INDUSINDBK,IndusInd Bank Ltd,2022-03,16249.0,3.6,Excellent,1.14,Asset Light,102.58,Shareholder Returns,Medium
+INDUSINDBK,IndusInd Bank Ltd,2023-03,-12879.0,-1.68,Weak,1.21,Asset Light,-82.96,Growth Funded by Debt,High
+INDUSINDBK,IndusInd Bank Ltd,2024-03,-17468.0,-1.88,Weak,1.37,Asset Light,-99.04,Pre-Revenue,High
+INFY,Infosys Ltd,2017-03,-3133.0,0.8,Average,21.41,Capital Intensive,-16.84,Reinvestor,Medium
+IOC,"Indian Oil Corporation
+",2013-03,46.0,2.58,Excellent,2.01,Asset Light,0.33,Mixed,Medium
+IOC,"Indian Oil Corporation
+",2014-03,5601.0,3.47,Excellent,3.81,Moderate,32.52,Shareholder Returns,Medium
+IOC,"Indian Oil Corporation
+",2019-03,-9822.0,0.74,Weak,4.27,Moderate,-27.85,Mixed,Medium
+IOC,"Indian Oil Corporation
+",2020-03,-21955.0,-3.81,Weak,6.02,Moderate,-136.77,Mixed,High
+IOC,"Indian Oil Corporation
+",2021-03,26715.0,2.28,Excellent,6.3,Moderate,66.91,Shareholder Returns,Medium
+IOC,"Indian Oil Corporation
+",2023-03,1614.0,2.53,Excellent,3.33,Moderate,5.26,Shareholder Returns,Medium
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,2021-03,-205.0,1.33,Excellent,58.3,Capital Intensive,-109.04,Shareholder Returns,Medium
+IRFC,Indian Railway Finance Corporation Ltd,2016-03,-16376.0,-19.29,Weak,0.03,Asset Light,-219.28,Distress Signal,High
+IRFC,Indian Railway Finance Corporation Ltd,2017-03,-19453.0,-20.83,Weak,0.02,Asset Light,-215.64,Distress Signal,High
+IRFC,Indian Railway Finance Corporation Ltd,2018-03,-28074.0,-13.66,Weak,0.02,Asset Light,-304.19,Distress Signal,High
+IRFC,Indian Railway Finance Corporation Ltd,2019-03,-41747.0,-18.51,Weak,0.01,Asset Light,-376.61,Distress Signal,High
+IRFC,Indian Railway Finance Corporation Ltd,2020-03,-62700.0,-19.64,Weak,0.01,Asset Light,-469.49,Distress Signal,High
+IRFC,Indian Railway Finance Corporation Ltd,2021-03,-89907.0,-20.36,Weak,0.0,Asset Light,-574.23,Growth Funded by Debt,High
+IRFC,Indian Railway Finance Corporation Ltd,2022-03,-64417.0,-10.58,Weak,0.02,Asset Light,-319.26,Growth Funded by Debt,High
+IRFC,Indian Railway Finance Corporation Ltd,2023-03,-28588.0,-4.64,Weak,0.0,Asset Light,-121.2,Growth Funded by Debt,High
+IRFC,Indian Railway Finance Corporation Ltd,2024-03,7906.0,1.23,Excellent,0.03,Asset Light,29.82,Shareholder Returns,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2013-03,-6069.0,1.19,Good,48.42,Capital Intensive,-99.39,Mixed,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2014-03,-8114.0,2.42,Excellent,65.82,Capital Intensive,-139.92,Mixed,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2015-03,-5535.0,-0.81,Weak,34.62,Capital Intensive,-101.3,Mixed,High
+JINDALSTEL,Jindal Steel & Power Ltd,2016-03,2071.0,-1.4,Weak,11.62,Capital Intensive,60.26,Reinvestor,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2017-03,4852.0,-2.7,Weak,9.25,Capital Intensive,103.04,Reinvestor,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2018-03,6293.0,-4.78,Weak,4.3,Moderate,97.28,Reinvestor,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2019-03,8195.0,-3.74,Weak,1.77,Asset Light,97.42,Reinvestor,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2020-03,7338.0,-22.04,Weak,3.89,Moderate,107.42,Reinvestor,Medium
+JINDALSTEL,Jindal Steel & Power Ltd,2024-03,-2336.0,1.01,Good,16.57,Capital Intensive,-22.9,Mixed,Medium
+JSWENERGY,JSW Energy Ltd,2013-03,781.0,1.91,Excellent,10.64,Capital Intensive,27.88,Shareholder Returns,Medium
+JSWENERGY,JSW Energy Ltd,2014-03,1906.0,2.99,Excellent,4.2,Moderate,58.56,Shareholder Returns,Medium
+JSWENERGY,JSW Energy Ltd,2015-03,2972.0,2.5,Excellent,4.51,Moderate,82.01,Shareholder Returns,Medium
+JSWENERGY,JSW Energy Ltd,2016-03,266.0,2.42,Excellent,33.31,Capital Intensive,6.6,Shareholder Returns,Medium
+JSWENERGY,JSW Energy Ltd,2017-03,3091.0,6.18,Excellent,9.22,Capital Intensive,92.99,Shareholder Returns,Medium
+JSWENERGY,JSW Energy Ltd,2018-03,3719.0,46.28,Excellent,2.67,Asset Light,137.08,Shareholder Returns,Medium
+JSWENERGY,JSW Energy Ltd,2023-03,-4694.0,1.41,Excellent,65.6,Capital Intensive,-143.02,Mixed,Medium
+JSWENERGY,JSW Energy Ltd,2024-03,-1963.0,3.61,Excellent,71.37,Capital Intensive,-36.47,Mixed,Medium
+JSWSTEEL,JSW Steel Ltd,2013-03,411.0,6.29,Excellent,14.22,Capital Intensive,6.31,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2014-03,-3024.0,6.45,Excellent,10.97,Capital Intensive,-32.98,Mixed,Medium
+JSWSTEEL,JSW Steel Ltd,2015-03,504.0,4.57,Excellent,13.92,Capital Intensive,5.38,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2016-03,3040.0,-14.34,Weak,9.28,Capital Intensive,47.34,Reinvestor,Medium
+JSWSTEEL,JSW Steel Ltd,2017-03,2794.0,2.28,Excellent,9.16,Capital Intensive,22.7,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2018-03,7850.0,2.03,Excellent,6.3,Moderate,52.63,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2019-03,3246.0,1.94,Excellent,13.43,Capital Intensive,17.15,Mixed,Medium
+JSWSTEEL,JSW Steel Ltd,2020-03,-6804.0,3.26,Excellent,26.71,Capital Intensive,-57.6,Mixed,Medium
+JSWSTEEL,JSW Steel Ltd,2021-03,11087.0,2.39,Excellent,9.65,Capital Intensive,54.95,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2022-03,11522.0,1.25,Excellent,10.08,Capital Intensive,29.46,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2023-03,12593.0,5.63,Excellent,6.47,Moderate,68.18,Shareholder Returns,Medium
+JSWSTEEL,JSW Steel Ltd,2024-03,-2389.0,1.35,Excellent,8.27,Capital Intensive,-8.48,Shareholder Returns,Medium
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2013-03,-6157.0,1.29,Excellent,83.36,Capital Intensive,-93.25,Mixed,Medium
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2014-03,7938.0,3.59,Excellent,9.43,Capital Intensive,112.55,Shareholder Returns,Medium
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2015-03,-2165.0,0.74,Weak,33.54,Capital Intensive,-22.28,Mixed,High
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2016-03,2672.0,1.43,Excellent,11.53,Capital Intensive,23.15,Mixed,Medium
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2017-03,7933.0,2.63,Excellent,23.69,Capital Intensive,53.49,Mixed,Medium
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2018-03,-15867.0,-1.66,Weak,21.79,Capital Intensive,-94.42,Growth Funded by Debt,High
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2019-03,-1501.0,0.25,Weak,11.14,Capital Intensive,-7.6,Mixed,High
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2020-03,33551.0,5.43,Excellent,39.04,Capital Intensive,148.6,Shareholder Returns,Medium
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2021-03,-6291.0,0.49,Weak,34.04,Capital Intensive,-21.1,Reinvestor,High
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2022-03,-2595.0,0.69,Weak,32.31,Capital Intensive,-8.45,Mixed,High
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2023-03,-11623.0,-0.08,Weak,24.63,Capital Intensive,-34.71,Growth Funded by Debt,High
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",2024-03,6766.0,0.86,Average,15.86,Capital Intensive,14.38,Mixed,Medium
+LICI,Life Insurance Corporation of India,2019-03,22910.0,5.05,Excellent,1.69,Asset Light,386.99,Liquidating Assets,Medium
+LICI,Life Insurance Corporation of India,2020-03,13952.0,20.06,Excellent,6.44,Moderate,-200.83,Shareholder Returns,Medium
+LODHA,Macrotech Developers Ltd,2016-03,-467.0,0.55,Weak,10.35,Capital Intensive,-21.97,Mixed,High
+LODHA,Macrotech Developers Ltd,2017-03,295.0,2.52,Excellent,14.81,Capital Intensive,18.28,Shareholder Returns,Medium
+LODHA,Macrotech Developers Ltd,2018-03,45.0,0.88,Average,6.73,Moderate,2.68,Mixed,Medium
+LODHA,Macrotech Developers Ltd,2019-03,-638.0,-0.28,Weak,1.47,Asset Light,-20.07,Growth Funded by Debt,High
+LODHA,Macrotech Developers Ltd,2020-03,3954.0,5.08,Excellent,1.46,Asset Light,206.26,Liquidating Assets,Medium
+LODHA,Macrotech Developers Ltd,2021-03,2944.0,52.58,Excellent,7.71,Moderate,212.87,Liquidating Assets,Medium
+LODHA,Macrotech Developers Ltd,2024-03,-435.0,1.62,Excellent,28.57,Capital Intensive,-16.32,Mixed,Medium
+LT,Larsen & Toubro Ltd,2013-03,-11277.0,-0.82,Weak,9.3,Capital Intensive,-98.97,Growth Funded by Debt,Medium
+LT,Larsen & Toubro Ltd,2014-03,-12653.0,-1.46,Weak,6.48,Moderate,-89.83,Growth Funded by Debt,Medium
+LT,Larsen & Toubro Ltd,2015-03,-6143.0,-0.27,Weak,5.2,Moderate,-39.17,Growth Funded by Debt,Medium
+LT,Larsen & Toubro Ltd,2016-03,-7867.0,-0.71,Weak,4.58,Moderate,-50.8,Growth Funded by Debt,Medium
+LT,Larsen & Toubro Ltd,2017-03,-3141.0,1.03,Good,8.96,Capital Intensive,-18.9,Mixed,Medium
+LT,Larsen & Toubro Ltd,2018-03,-6117.0,-1.25,Weak,3.27,Moderate,-30.42,Distress Signal,Medium
+LT,Larsen & Toubro Ltd,2019-03,-15779.0,-0.47,Weak,8.15,Capital Intensive,-69.01,Growth Funded by Debt,Medium
+LT,Larsen & Toubro Ltd,2020-03,-1714.0,0.61,Weak,5.78,Moderate,-6.98,Mixed,Medium
+M&M,"Mahindra & Mahindra Ltd
+",2013-03,-3825.0,-0.22,Weak,4.23,Moderate,-41.96,Growth Funded by Debt,High
+M&M,"Mahindra & Mahindra Ltd
+",2014-03,-4768.0,-0.05,Weak,6.11,Moderate,-46.88,Growth Funded by Debt,High
+M&M,"Mahindra & Mahindra Ltd
+",2015-03,-3302.0,0.31,Weak,6.1,Moderate,-37.55,Mixed,High
+M&M,"Mahindra & Mahindra Ltd
+",2016-03,-3121.0,0.67,Weak,7.26,Moderate,-30.96,Mixed,High
+M&M,"Mahindra & Mahindra Ltd
+",2017-03,-5692.0,0.05,Weak,7.01,Moderate,-53.02,Mixed,High
+M&M,"Mahindra & Mahindra Ltd
+",2018-03,-4785.0,0.09,Weak,5.94,Moderate,-36.18,Mixed,High
+M&M,"Mahindra & Mahindra Ltd
+",2019-03,-11521.0,-0.72,Weak,6.85,Moderate,-75.76,Growth Funded by Debt,High
+M&M,"Mahindra & Mahindra Ltd
+",2020-03,-8327.0,4.54,Excellent,9.11,Capital Intensive,-81.97,Growth Funded by Debt,Medium
+M&M,"Mahindra & Mahindra Ltd
+",2021-03,-1777.0,11.84,Excellent,26.5,Capital Intensive,-15.47,Mixed,Medium
+M&M,"Mahindra & Mahindra Ltd
+",2022-03,5996.0,1.28,Excellent,3.61,Moderate,40.84,Shareholder Returns,Medium
+M&M,"Mahindra & Mahindra Ltd
+",2023-03,-15940.0,-0.62,Weak,7.31,Moderate,-78.58,Growth Funded by Debt,High
+M&M,"Mahindra & Mahindra Ltd
+",2024-03,-11245.0,-0.46,Weak,4.04,Moderate,-45.18,Growth Funded by Debt,High
+MARUTI,Maruti Suzuki India Ltd,2014-03,-2.0,1.75,Excellent,11.22,Capital Intensive,-0.04,Shareholder Returns,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2013-03,397.0,3.29,Excellent,4.3,Moderate,26.82,Shareholder Returns,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2014-03,1323.0,2.46,Excellent,4.51,Moderate,55.19,Shareholder Returns,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2015-03,546.0,2.62,Excellent,8.21,Capital Intensive,19.2,Mixed,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2016-03,282.0,1.23,Excellent,5.12,Moderate,7.95,Shareholder Returns,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2017-03,-2345.0,1.75,Excellent,14.5,Capital Intensive,-56.22,Mixed,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2018-03,70.0,1.44,Excellent,5.67,Moderate,1.37,Shareholder Returns,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2019-03,994.0,2.06,Excellent,5.22,Moderate,18.59,Shareholder Returns,Medium
+MOTHERSON,Samvardhana Motherson International Ltd,2020-03,4132.0,4.91,Excellent,3.66,Moderate,88.78,Shareholder Returns,Medium
+NAUKRI,Info Edge (India) Ltd,2014-03,-123.0,1.35,Excellent,35.98,Capital Intensive,-126.8,Mixed,Medium
+NAUKRI,Info Edge (India) Ltd,2015-03,-1000.0,-3.64,Weak,143.58,Capital Intensive,-4761.9,Mixed,Medium
+NAUKRI,Info Edge (India) Ltd,2021-03,-1767.0,0.19,Weak,181.12,Capital Intensive,-2387.84,Mixed,Medium
+NAUKRI,Info Edge (India) Ltd,2022-03,-470.0,0.05,Weak,74.07,Capital Intensive,-105.38,Mixed,Medium
+NAUKRI,Info Edge (India) Ltd,2024-03,-150.0,1.18,Good,33.6,Capital Intensive,-21.1,Mixed,Medium
+NTPC,NTPC Ltd,2013-03,-337.0,1.31,Excellent,23.55,Capital Intensive,-1.86,Mixed,Medium
+NTPC,NTPC Ltd,2015-03,-1088.0,1.49,Excellent,19.98,Capital Intensive,-6.27,Shareholder Returns,Medium
+NTPC,NTPC Ltd,2016-03,4963.0,2.24,Excellent,26.11,Capital Intensive,26.73,Shareholder Returns,Medium
+NTPC,NTPC Ltd,2017-03,-4313.0,1.88,Excellent,29.84,Capital Intensive,-19.97,Mixed,Medium
+NTPC,NTPC Ltd,2018-03,-1008.0,1.87,Excellent,23.48,Capital Intensive,-4.48,Mixed,Medium
+NTPC,NTPC Ltd,2019-03,-5377.0,1.33,Excellent,23.99,Capital Intensive,-23.68,Mixed,Medium
+NTPC,NTPC Ltd,2020-03,-5738.0,2.01,Excellent,27.07,Capital Intensive,-18.17,Mixed,Medium
+NTPC,NTPC Ltd,2021-03,11410.0,2.17,Excellent,18.86,Capital Intensive,33.52,Shareholder Returns,Medium
+NTPC,NTPC Ltd,2022-03,18897.0,2.46,Excellent,17.25,Capital Intensive,46.82,Shareholder Returns,Medium
+NTPC,NTPC Ltd,2023-03,21007.0,2.75,Excellent,14.84,Capital Intensive,44.14,Shareholder Returns,Medium
+NTPC,NTPC Ltd,2024-03,8644.0,1.91,Excellent,18.01,Capital Intensive,16.8,Shareholder Returns,Medium
+ONGC,Oil & Natural Gas Corpn Ltd,2013-03,-1346.0,1.66,Excellent,25.45,Capital Intensive,-3.09,Shareholder Returns,Medium
+ONGC,Oil & Natural Gas Corpn Ltd,2014-03,-10363.0,2.0,Excellent,36.55,Capital Intensive,-21.09,Mixed,Medium
+ONGC,Oil & Natural Gas Corpn Ltd,2018-03,-10006.0,2.18,Excellent,20.7,Capital Intensive,-17.59,Mixed,Medium
+PFC,Power Finance Corporation Ltd,2013-03,-25080.0,-5.66,Weak,0.13,Asset Light,-418.91,Distress Signal,High
+PFC,Power Finance Corporation Ltd,2014-03,-22464.0,-4.11,Weak,0.04,Asset Light,-295.31,Distress Signal,High
+PFC,Power Finance Corporation Ltd,2015-03,-21946.0,-3.57,Weak,1.96,Asset Light,-260.36,Growth Funded by Debt,High
+PFC,Power Finance Corporation Ltd,2016-03,-15271.0,-2.15,Weak,7.08,Moderate,-166.68,Growth Funded by Debt,High
+PFC,Power Finance Corporation Ltd,2017-03,1128.0,0.8,Average,2.42,Asset Light,21.38,Mixed,Medium
+PFC,Power Finance Corporation Ltd,2018-03,-55739.0,-6.5,Weak,2.9,Asset Light,-474.29,Distress Signal,High
+PFC,Power Finance Corporation Ltd,2019-03,-93715.0,-6.35,Weak,24.88,Capital Intensive,-526.99,Growth Funded by Debt,High
+PFC,Power Finance Corporation Ltd,2020-03,-42221.0,-4.45,Weak,0.12,Asset Light,-301.32,Growth Funded by Debt,High
+PFC,Power Finance Corporation Ltd,2021-03,-57402.0,-3.76,Weak,2.43,Asset Light,-288.87,Distress Signal,High
+PFC,Power Finance Corporation Ltd,2022-03,4357.0,0.26,Weak,0.72,Asset Light,18.67,Reinvestor,Medium
+PFC,Power Finance Corporation Ltd,2023-03,-76411.0,-3.53,Weak,2.18,Asset Light,-288.33,Growth Funded by Debt,High
+PFC,Power Finance Corporation Ltd,2024-03,-101229.0,-3.7,Weak,3.73,Moderate,-301.52,Growth Funded by Debt,High
+PIDILITIND,Pidilite Industries Ltd,2017-03,-85.0,0.92,Average,15.65,Capital Intensive,-6.74,Mixed,Medium
+PIDILITIND,Pidilite Industries Ltd,2021-03,-296.0,1.24,Excellent,23.15,Capital Intensive,-17.56,Shareholder Returns,Medium
+PNB,Punjab National Bank,2013-03,-1292.0,-0.14,Weak,1.39,Asset Light,,Pre-Revenue,High
+PNB,Punjab National Bank,2014-03,16604.0,4.6,Excellent,0.67,Asset Light,,Mixed,Medium
+PNB,Punjab National Bank,2015-03,3942.0,1.37,Excellent,1.79,Asset Light,,Mixed,Medium
+PNB,Punjab National Bank,2016-03,12815.0,-4.04,Weak,2.66,Asset Light,,Mixed,Medium
+PNB,Punjab National Bank,2017-03,22097.0,17.71,Excellent,0.33,Asset Light,,Liquidating Assets,Medium
+PNB,Punjab National Bank,2018-03,-1350.0,0.14,Weak,0.8,Asset Light,,Distress Signal,High
+PNB,Punjab National Bank,2019-03,-34161.0,3.51,Excellent,1.21,Asset Light,,Growth Funded by Debt,Medium
+PNB,Punjab National Bank,2020-03,-13131.0,-26.38,Weak,0.62,Asset Light,,Growth Funded by Debt,High
+PNB,Punjab National Bank,2021-03,30163.0,11.48,Excellent,0.96,Asset Light,,Mixed,Medium
+PNB,Punjab National Bank,2022-03,18828.0,5.13,Excellent,1.58,Asset Light,,Mixed,Medium
+PNB,Punjab National Bank,2023-03,21860.0,6.73,Excellent,0.84,Asset Light,,Mixed,Medium
+PNB,Punjab National Bank,2024-03,-29445.0,-3.05,Weak,1.38,Asset Light,,Growth Funded by Debt,High
+POWERGRID,Power Grid Corporation of India Ltd,2013-03,-10394.0,2.71,Excellent,168.83,Capital Intensive,-95.91,Mixed,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2014-03,-11416.0,3.35,Excellent,171.26,Capital Intensive,-88.04,Mixed,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2015-03,-8385.0,3.13,Excellent,137.88,Capital Intensive,-56.17,Mixed,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2016-03,-6568.0,2.52,Excellent,104.47,Capital Intensive,-36.12,Mixed,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2017-03,-2261.0,2.9,Excellent,92.76,Capital Intensive,-10.07,Mixed,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2018-03,-2991.0,2.77,Excellent,85.8,Capital Intensive,-11.52,Mixed,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2019-03,4544.0,2.32,Excellent,53.42,Capital Intensive,16.88,Shareholder Returns,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2020-03,20006.0,2.78,Excellent,28.44,Capital Intensive,60.83,Shareholder Returns,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2021-03,20159.0,2.44,Excellent,23.32,Capital Intensive,57.75,Shareholder Returns,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2022-03,26877.0,1.55,Excellent,1.81,Asset Light,75.02,Liquidating Assets,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2023-03,33065.0,2.61,Excellent,15.65,Capital Intensive,83.55,Shareholder Returns,Medium
+POWERGRID,Power Grid Corporation of India Ltd,2024-03,24176.0,2.39,Excellent,28.61,Capital Intensive,60.7,Shareholder Returns,Medium
+RECLTD,REC Ltd,2013-03,-19907.0,-5.23,Weak,1.11,Asset Light,-150.02,Distress Signal,High
+RECLTD,REC Ltd,2014-03,-17108.0,-3.64,Weak,0.79,Asset Light,-102.75,Distress Signal,High
+RECLTD,REC Ltd,2015-03,-23747.0,-4.47,Weak,0.74,Asset Light,-122.44,Distress Signal,High
+RECLTD,REC Ltd,2016-03,-14034.0,-2.33,Weak,3.13,Moderate,-62.53,Growth Funded by Debt,High
+RECLTD,REC Ltd,2017-03,6704.0,1.08,Good,0.41,Asset Light,29.86,Shareholder Returns,Medium
+RECLTD,REC Ltd,2018-03,-32464.0,-7.3,Weak,0.2,Asset Light,-168.39,Distress Signal,High
+RECLTD,REC Ltd,2019-03,-35409.0,-6.25,Weak,1.8,Asset Light,-149.37,Distress Signal,High
+RECLTD,REC Ltd,2020-03,-32591.0,-6.58,Weak,0.4,Asset Light,-125.54,Distress Signal,High
+RECLTD,REC Ltd,2021-03,-42651.0,-5.19,Weak,2.42,Asset Light,-132.19,Distress Signal,High
+RECLTD,REC Ltd,2022-03,-1106.0,-0.08,Weak,0.73,Asset Light,-3.21,Growth Funded by Debt,High
+RECLTD,REC Ltd,2023-03,-38303.0,-3.35,Weak,2.39,Asset Light,-101.79,Growth Funded by Debt,High
+RECLTD,REC Ltd,2024-03,-59554.0,-4.08,Weak,3.85,Moderate,-124.37,Growth Funded by Debt,High
+RELIANCE,"Reliance Industries Ltd
+",2014-03,-29809.0,1.92,Excellent,16.86,Capital Intensive,-85.33,Mixed,Medium
+RELIANCE,"Reliance Industries Ltd
+",2015-03,-30332.0,1.45,Excellent,17.28,Capital Intensive,-81.0,Mixed,Medium
+RELIANCE,"Reliance Industries Ltd
+",2017-03,-16651.0,1.66,Excellent,21.78,Capital Intensive,-35.96,Mixed,Medium
+RELIANCE,"Reliance Industries Ltd
+",2019-03,-52161.0,1.06,Good,16.63,Capital Intensive,-61.91,Mixed,Medium
+RELIANCE,"Reliance Industries Ltd
+",2021-03,-115427.0,0.5,Weak,30.53,Capital Intensive,-142.87,Mixed,Medium
+SBILIFE,SBI Life Insurance Company Ltd,2014-03,-542.0,0.23,Weak,4.1,Moderate,-106.07,Reinvestor,Medium
+SBILIFE,SBI Life Insurance Company Ltd,2016-03,-1426.0,6.85,Excellent,37.28,Capital Intensive,-155.0,Shareholder Returns,Medium
+SBILIFE,SBI Life Insurance Company Ltd,2017-03,-507.0,8.93,Excellent,29.57,Capital Intensive,-47.47,Shareholder Returns,Medium
+SBILIFE,SBI Life Insurance Company Ltd,2019-03,-79.0,10.15,Excellent,30.38,Capital Intensive,-5.36,Shareholder Returns,Medium
+SBILIFE,SBI Life Insurance Company Ltd,2023-03,-1547.0,16.65,Excellent,37.46,Capital Intensive,-1268.03,Shareholder Returns,Medium
+SBILIFE,SBI Life Insurance Company Ltd,2024-03,-2099.0,15.38,Excellent,23.65,Capital Intensive,-853.25,Shareholder Returns,Medium
+SBIN,State Bank of India,2018-03,-83455.0,25.74,Excellent,5.7,Moderate,96.26,Distress Signal,Medium
+SBIN,State Bank of India,2023-03,-86980.0,-1.49,Weak,0.28,Asset Light,200.23,Growth Funded by Debt,Medium
+SHREECEM,Shree Cement Ltd,2018-03,-1716.0,1.36,Excellent,36.56,Capital Intensive,-69.39,Mixed,Medium
+SHREECEM,Shree Cement Ltd,2020-03,-1617.0,2.57,Excellent,43.44,Capital Intensive,-42.88,Mixed,Medium
+SHRIRAMFIN,"Shriram Finance Ltd
+",2013-03,-8400.0,-5.71,Weak,0.58,Asset Light,-385.5,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2014-03,-4167.0,-2.99,Weak,1.32,Asset Light,-208.45,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2015-03,-9656.0,-9.35,Weak,0.49,Asset Light,-571.02,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2016-03,-5543.0,-4.65,Weak,0.35,Asset Light,-303.89,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2017-03,-2679.0,-2.11,Weak,0.02,Asset Light,-135.85,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2018-03,-13056.0,-5.16,Weak,0.64,Asset Light,-343.13,Distress Signal,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2019-03,-5611.0,-2.15,Weak,0.49,Asset Light,-147.62,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2020-03,-2519.0,-0.98,Weak,0.33,Asset Light,-70.66,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2021-03,-4264.0,-1.7,Weak,0.14,Asset Light,-125.34,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2022-03,-8893.0,-3.26,Weak,0.18,Asset Light,-242.58,Growth Funded by Debt,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2023-03,-12549.0,-2.93,Weak,16.65,Capital Intensive,-142.62,Distress Signal,High
+SHRIRAMFIN,"Shriram Finance Ltd
+",2024-03,-31359.0,-4.2,Weak,0.71,Asset Light,-298.0,Growth Funded by Debt,High
+SIEMENS,Siemens Ltd,2018-09,-74.0,0.11,Weak,1.36,Asset Light,-5.58,Reinvestor,Medium
+SIEMENS,Siemens Ltd,2021-09,-967.0,1.31,Excellent,18.1,Capital Intensive,-66.6,Shareholder Returns,Medium
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2023-03,-2261.0,0.58,Weak,16.45,Capital Intensive,-19.41,Mixed,Medium
+TATAMOTORS,Tata Motors Ltd,2013-03,-806.0,2.22,Excellent,12.17,Capital Intensive,-3.28,Shareholder Returns,Medium
+TATAMOTORS,Tata Motors Ltd,2015-03,-701.0,2.52,Excellent,13.77,Capital Intensive,-1.79,Mixed,Medium
+TATAMOTORS,Tata Motors Ltd,2017-03,-9372.0,4.0,Excellent,14.67,Capital Intensive,-31.67,Mixed,Medium
+TATAMOTORS,Tata Motors Ltd,2018-03,-1282.0,2.62,Excellent,8.62,Capital Intensive,-4.08,Mixed,Medium
+TATAMOTORS,Tata Motors Ltd,2019-03,-1987.0,-0.66,Weak,6.91,Moderate,-8.06,Mixed,High
+TATAMOTORS,Tata Motors Ltd,2020-03,-6482.0,-2.22,Weak,12.68,Capital Intensive,-36.04,Mixed,High
+TATAMOTORS,Tata Motors Ltd,2021-03,3329.0,-2.17,Weak,10.28,Capital Intensive,10.31,Mixed,Medium
+TATAMOTORS,Tata Motors Ltd,2022-03,9839.0,-1.26,Weak,1.6,Asset Light,39.8,Reinvestor,Medium
+TATAMOTORS,Tata Motors Ltd,2023-03,19971.0,13.16,Excellent,4.46,Moderate,62.77,Shareholder Returns,Medium
+TATAMOTORS,Tata Motors Ltd,2024-03,45133.0,2.14,Excellent,5.2,Moderate,75.81,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2013-03,-740.0,26.72,Excellent,12.13,Capital Intensive,-13.23,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2014-03,2874.0,540.25,Excellent,10.1,Capital Intensive,41.56,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2015-03,2116.0,13.09,Excellent,11.51,Capital Intensive,33.58,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2016-03,5610.0,9.43,Excellent,6.12,Moderate,266.51,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2017-03,-359.0,6.38,Excellent,26.73,Capital Intensive,-6.56,Mixed,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2018-03,4852.0,2.44,Excellent,5.63,Moderate,211.42,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2019-03,4302.0,1.76,Excellent,0.91,Asset Light,140.13,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2020-03,6882.0,5.6,Excellent,1.69,Asset Light,101.13,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2021-03,9338.0,5.8,Excellent,3.04,Moderate,134.92,Liquidating Assets,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2022-03,443.0,3.1,Excellent,14.6,Capital Intensive,6.3,Shareholder Returns,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2023-03,-97.0,1.88,Excellent,13.18,Capital Intensive,-1.26,Mixed,Medium
+TATAPOWER,"Tata Power Company Ltd
+",2024-03,3569.0,2.94,Excellent,14.69,Capital Intensive,33.25,Shareholder Returns,Medium
+TATASTEEL,"Tata Steel Ltd
+",2013-03,936.0,-1.93,Weak,9.72,Capital Intensive,23.61,Reinvestor,Medium
+TATASTEEL,"Tata Steel Ltd
+",2014-03,-2232.0,3.59,Excellent,10.35,Capital Intensive,-13.79,Mixed,Medium
+TATASTEEL,"Tata Steel Ltd
+",2015-03,2859.0,-3.02,Weak,6.47,Moderate,83.87,Reinvestor,Medium
+TATASTEEL,"Tata Steel Ltd
+",2016-03,2661.0,-23.05,Weak,8.62,Capital Intensive,-425.76,Reinvestor,Medium
+TATASTEEL,"Tata Steel Ltd
+",2017-03,1334.0,-2.6,Weak,8.45,Capital Intensive,10.15,Reinvestor,Medium
+TATASTEEL,"Tata Steel Ltd
+",2018-03,-3707.0,0.45,Weak,9.52,Capital Intensive,-17.3,Mixed,High
+TATASTEEL,"Tata Steel Ltd
+",2019-03,-3840.0,2.78,Excellent,18.5,Capital Intensive,-13.1,Shareholder Returns,Medium
+TATASTEEL,"Tata Steel Ltd
+",2020-03,6157.0,17.18,Excellent,10.02,Capital Intensive,35.26,Shareholder Returns,Medium
+TATASTEEL,"Tata Steel Ltd
+",2021-03,34890.0,5.41,Excellent,6.04,Moderate,114.38,Shareholder Returns,Medium
+TITAN,"Titan Company Ltd
+",2014-03,-826.0,-0.76,Weak,2.48,Asset Light,-78.89,Growth Funded by Debt,Medium
+TITAN,"Titan Company Ltd
+",2020-03,-113.0,-0.23,Weak,1.12,Asset Light,-4.59,Unclassified,Medium
+TITAN,"Titan Company Ltd
+",2023-03,-444.0,0.42,Weak,4.47,Moderate,-9.09,Mixed,Medium
+TITAN,"Titan Company Ltd
+",2024-03,1506.0,0.48,Weak,0.37,Asset Light,28.46,Reinvestor,Medium
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2013-03,-94.0,0.35,Weak,7.71,Moderate,-13.49,Mixed,Medium
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2015-03,-1303.0,1.08,Good,45.58,Capital Intensive,-127.75,Mixed,Medium
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2018-03,-3783.0,1.32,Excellent,78.61,Capital Intensive,-280.43,Mixed,Medium
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2019-03,1552.0,4.12,Excellent,3.21,Moderate,78.27,Shareholder Returns,Medium
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2020-03,1622.0,1.36,Excellent,2.88,Asset Light,74.75,Liquidating Assets,Medium
+TRENT,Trent Ltd,2013-03,-245.0,-1.15,Weak,12.95,Capital Intensive,-4900.0,Mixed,Medium
+TRENT,Trent Ltd,2014-03,-94.0,2.42,Excellent,2.06,Asset Light,940.0,Pre-Revenue,Medium
+TRENT,Trent Ltd,2015-03,-316.0,-0.08,Weak,13.4,Capital Intensive,-359.09,Growth Funded by Debt,Medium
+TRENT,Trent Ltd,2019-03,-16.0,0.22,Weak,1.41,Asset Light,-6.64,Mixed,Medium
+TRENT,Trent Ltd,2020-03,-448.0,3.41,Excellent,23.21,Capital Intensive,-84.69,Mixed,Medium
+TRENT,Trent Ltd,2022-03,114.0,1.66,Excellent,1.24,Asset Light,19.16,Liquidating Assets,Medium
+TRENT,Trent Ltd,2023-03,492.0,1.51,Excellent,1.25,Asset Light,44.17,Shareholder Returns,Medium
+TVSMOTOR,TVS Motor Company Ltd,2013-03,344.0,2.34,Excellent,1.6,Asset Light,78.54,Shareholder Returns,Medium
+TVSMOTOR,TVS Motor Company Ltd,2015-03,-332.0,0.25,Weak,4.05,Moderate,-54.88,Mixed,Medium
+TVSMOTOR,TVS Motor Company Ltd,2017-03,-20.0,1.35,Excellent,5.69,Moderate,-2.3,Shareholder Returns,Medium
+TVSMOTOR,TVS Motor Company Ltd,2018-03,-741.0,0.53,Weak,6.7,Moderate,-47.17,Mixed,High
+TVSMOTOR,TVS Motor Company Ltd,2019-03,-2022.0,-1.27,Weak,5.48,Moderate,-93.48,Growth Funded by Debt,High
+TVSMOTOR,TVS Motor Company Ltd,2020-03,-717.0,0.58,Weak,5.78,Moderate,-31.67,Mixed,High
+TVSMOTOR,TVS Motor Company Ltd,2021-03,269.0,1.89,Excellent,4.54,Moderate,12.05,Mixed,Medium
+TVSMOTOR,TVS Motor Company Ltd,2022-03,-3046.0,-2.15,Weak,6.04,Moderate,-110.56,Growth Funded by Debt,High
+TVSMOTOR,TVS Motor Company Ltd,2023-03,-5713.0,-3.37,Weak,4.09,Moderate,-141.87,Growth Funded by Debt,High
+TVSMOTOR,TVS Motor Company Ltd,2024-03,-2254.0,-0.7,Weak,2.56,Asset Light,-40.98,Growth Funded by Debt,High

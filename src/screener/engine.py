@@ -108,12 +108,22 @@ def prepare_data():
     return df
 
 def get_latest_data():
-
     df = prepare_data()
 
-    latest = df[df["year"] == "2024-03"].copy()
+    # Exclude TTM
+    df = df[df["year"] != "TTM"].copy()
 
-    latest = latest.reset_index(drop=True)
+    # Convert year to sortable datetime
+    df["year_dt"] = pd.to_datetime(df["year"], format="%Y-%m", errors="coerce")
+
+    # Keep the latest record for each company
+    latest = (
+        df.sort_values("year_dt")
+        .groupby("company_id", as_index=False)
+        .tail(1)
+        .drop(columns="year_dt")
+        .reset_index(drop=True)
+    )
 
     return latest
 
@@ -194,7 +204,7 @@ def apply_filters(df, filters):
             data = data[data["sales"] >= value]
 
         else:
-            print(f"Unknown filter : {metric}")
+            continue
 
     return data
 
@@ -288,7 +298,7 @@ def add_scoring_metrics(df):
         data["free_cash_flow_cr"] > 0,
         "fcf_positive_flag"
     ] = 1
-
+    
     return data
 
 def normalize_metric(data, column, inverse=False):
@@ -536,8 +546,6 @@ def export_screener(presets, df):
 
     writer.close()
 
-    print("screener_output.xlsx generated successfully.")
-
 
 def calculate_score(df):
 
@@ -617,27 +625,3 @@ def calculate_score(df):
 
     return data
 
-if __name__ == "__main__":
-
-    df = get_latest_data()
-
-    df = calculate_score(df)
-
-    df = add_sector_relative_score(df)
-    presets = load_config()
-
-    for name, filters in presets.items():
-
-        if name == "turnaround_watch":
-            print(f"{name} : Skipped")
-            continue
-
-        result = apply_filters(df, filters)
-
-        print(f"{name} -> {len(result)} companies")
-
-    export_screener(
-        presets,
-        df
-    )
-    

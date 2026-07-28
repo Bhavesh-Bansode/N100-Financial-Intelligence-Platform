@@ -1,0 +1,11 @@
+{
+    "theme": "Light",
+    "accent": "Blue",
+    "font_size": "Medium",
+    "show_charts": true,
+    "show_metrics": true,
+    "show_tables": true,
+    "auto_refresh": false,
+    "export_format": "CSV",
+    "decimal_places": 2
+}

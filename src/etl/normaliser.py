@@ -44,7 +44,7 @@ def normalize_year(value):
     # YYYY-MM
     match = re.match(r"^(\d{4})-(\d{2})$", value)
     if match:
-        return value
+        return value if 1 <= int(match.group(2)) <= 12 else "PARSE_ERROR"
 
     # Jan-20
     match = re.match(

@@ -1,0 +1,110 @@
+company_id,company_name,cluster_id,cluster_name,distance_from_centroid
+ABB,Abbott India Ltd,0,Diversified Core,0.9239
+ADANIENSOL,Adani Energy Solutions Ltd,0,Diversified Core,1.3246
+ADANIENT,Adani Enterprises Ltd,0,Diversified Core,1.4268
+ADANIPOWER,Adani Power Ltd,0,Diversified Core,1.0893
+AMBUJACEM,Ambuja Cements Ltd,0,Diversified Core,0.9039
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",0,Diversified Core,0.5289
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",0,Diversified Core,0.359
+ATGL,Adani Total Gas Ltd,0,Diversified Core,1.3471
+BAJAJ-AUTO,Bajaj Auto Ltd,0,Diversified Core,0.6264
+BHEL,"Bharat Heavy Electricals Limited
+",0,Diversified Core,2.4386
+BOSCHLTD,Bosch Ltd,0,Diversified Core,0.9651
+BPCL,Bharat Petroleum Corporation Ltd,0,Diversified Core,0.5322
+BRITANNIA,Britannia Industries Ltd,0,Diversified Core,1.5686
+DABUR,Dabur India Ltd,0,Diversified Core,0.89
+DIVISLAB,Divis Laboratories Ltd,0,Diversified Core,0.7428
+DLF,DLF Ltd,0,Diversified Core,2.4561
+DMART,Avenue Supermarts Ltd,0,Diversified Core,1.3327
+DRREDDY,Dr Reddys Laboratories Ltd,0,Diversified Core,1.2515
+EICHERMOT,Eicher Motors Ltd,0,Diversified Core,0.5136
+GAIL,GAIL (India) Ltd,0,Diversified Core,0.3535
+GODREJCP,Godrej Consumer Products Ltd,0,Diversified Core,0.6929
+GRASIM,Grasim Industries Ltd,0,Diversified Core,0.9121
+HAVELLS,Havells India Ltd,0,Diversified Core,0.9328
+HCLTECH,HCL Technologies Ltd,0,Diversified Core,0.4523
+INFY,Infosys Ltd,0,Diversified Core,0.3776
+IOC,"Indian Oil Corporation
+",0,Diversified Core,0.5832
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,0,Diversified Core,1.3259
+ITC,"ITC Ltd
+",0,Diversified Core,0.887
+JINDALSTEL,Jindal Steel & Power Ltd,0,Diversified Core,1.3678
+JSWENERGY,JSW Energy Ltd,0,Diversified Core,1.3981
+JSWSTEEL,JSW Steel Ltd,0,Diversified Core,0.6227
+LICI,Life Insurance Corporation of India,0,Diversified Core,2.085
+LODHA,Macrotech Developers Ltd,0,Diversified Core,2.1173
+LT,Larsen & Toubro Ltd,0,Diversified Core,0.9096
+LTIM,LTIMindtree Ltd,0,Diversified Core,2.6248
+M&M,"Mahindra & Mahindra Ltd
+",0,Diversified Core,0.8413
+MARUTI,Maruti Suzuki India Ltd,0,Diversified Core,0.3415
+MOTHERSON,Samvardhana Motherson International Ltd,0,Diversified Core,0.6366
+NAUKRI,Info Edge (India) Ltd,0,Diversified Core,0.8771
+NESTLEIND,Nestle India Ltd,0,Diversified Core,0.5733
+NHPC,"NHPC Ltd
+",0,Diversified Core,2.0141
+NTPC,NTPC Ltd,0,Diversified Core,0.4763
+ONGC,Oil & Natural Gas Corpn Ltd,0,Diversified Core,0.6047
+PIDILITIND,Pidilite Industries Ltd,0,Diversified Core,0.4471
+RELIANCE,"Reliance Industries Ltd
+",0,Diversified Core,0.2484
+SBILIFE,SBI Life Insurance Company Ltd,0,Diversified Core,2.0075
+SBIN,State Bank of India,0,Diversified Core,1.9291
+SHREECEM,Shree Cement Ltd,0,Diversified Core,0.2916
+SIEMENS,Siemens Ltd,0,Diversified Core,1.3827
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,0,Diversified Core,1.0821
+TATACONSUM,Tata Consumer Products Ltd,0,Diversified Core,1.7156
+TATAMOTORS,Tata Motors Ltd,0,Diversified Core,0.5915
+TATAPOWER,"Tata Power Company Ltd
+",0,Diversified Core,0.843
+TATASTEEL,"Tata Steel Ltd
+",0,Diversified Core,0.6234
+TCS,Tata Consultancy Services Ltd,0,Diversified Core,0.3506
+TECHM,Tech Mahindra Ltd,0,Diversified Core,0.6179
+TITAN,"Titan Company Ltd
+",0,Diversified Core,1.4883
+TORNTPHARM,Torrent Pharmaceuticals Ltd,0,Diversified Core,0.7564
+TRENT,Trent Ltd,0,Diversified Core,3.4181
+TVSMOTOR,TVS Motor Company Ltd,0,Diversified Core,1.2124
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",1,High-Margin Defensives,1.3782
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,1,High-Margin Defensives,2.4463
+BHARTIARTL,Bharti Airtel Ltd,1,High-Margin Defensives,1.2837
+COALINDIA,Coal India Ltd,1,High-Margin Defensives,1.1264
+HDFCLIFE,HDFC Life Insurance Company Ltd,1,High-Margin Defensives,1.3473
+HEROMOTOCO,"Hero MotoCorp Ltd
+",1,High-Margin Defensives,1.711
+HINDALCO,Hindalco Industries Ltd,1,High-Margin Defensives,0.613
+HINDUNILVR,"Hindustan Unilever Ltd
+",1,High-Margin Defensives,0.7328
+ICICIGI,ICICI Lombard General Insurance Company Ltd,1,High-Margin Defensives,0.7414
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,1,High-Margin Defensives,2.2583
+INDIGO,Interglobe Aviation Ltd,1,High-Margin Defensives,2.4176
+JIOFIN,Jio Financial Services Ltd,1,High-Margin Defensives,0.833
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",1,High-Margin Defensives,1.3449
+POWERGRID,Power Grid Corporation of India Ltd,1,High-Margin Defensives,1.5242
+BEL,Bharat Electronics Ltd,2,Emerging Growth,0.7606
+HAL,Hindustan Aeronautics Ltd,2,Emerging Growth,0.7606
+ADANIGREEN,Adani Green Energy Ltd,3,Financials & Lenders,2.5136
+AXISBANK,Axis Bank Ltd,3,Financials & Lenders,0.8983
+BAJAJFINSV,Bajaj Finserv Ltd,3,Financials & Lenders,1.0251
+BAJFINANCE,Bajaj Finance Ltd,3,Financials & Lenders,1.6043
+BANKBARODA,Bank of Baroda,3,Financials & Lenders,1.8019
+CANBK,Canara Bank,3,Financials & Lenders,2.7053
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,3,Financials & Lenders,0.9225
+HDFCBANK,HDFC Bank Ltd,3,Financials & Lenders,0.5904
+ICICIBANK,ICICI Bank Ltd,3,Financials & Lenders,0.5752
+INDUSINDBK,IndusInd Bank Ltd,3,Financials & Lenders,0.6622
+IRFC,Indian Railway Finance Corporation Ltd,3,Financials & Lenders,1.8491
+PFC,Power Finance Corporation Ltd,3,Financials & Lenders,1.2816
+PNB,Punjab National Bank,3,Financials & Lenders,1.374
+RECLTD,REC Ltd,3,Financials & Lenders,2.0277
+SHRIRAMFIN,"Shriram Finance Ltd
+",3,Financials & Lenders,1.3881
+CIPLA,"Cipla Ltd
+",4,High-Quality Compounder,0.0

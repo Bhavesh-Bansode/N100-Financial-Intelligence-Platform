@@ -387,32 +387,3 @@ def export_peer_comparison(df):
             )
 
     writer.close()
-
-    print(
-        "peer_comparison.xlsx created."
-    )
-if __name__ == "__main__":
-
-    df = prepare_data()
-
-    df = calculate_peer_scores(df)
-
-    save_peer_percentiles(df)
-
-    export_peer_comparison(df)
-    it = df[
-        df["broad_sector"] == "Information Technology"
-    ]
-
-    print(
-        it[
-            [
-                "company_id",
-                "return_on_equity_pct",
-                "roe_percentile",
-            ]
-        ].sort_values(
-            "roe_percentile",
-            ascending=False,
-        )
-    )

@@ -1,0 +1,110 @@
+company_id,company_name,pros,cons,confidence_score
+ABB,Abbott India Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently,Expensive valuation,0.35
+ADANIENSOL,Adani Energy Solutions Ltd,Healthy operating margin; Healthy revenue growth,Low ROCE; Weak ROE; Weak interest coverage; Slow profit growth; Weak EPS growth; Expensive valuation,0.4
+ADANIENT,Adani Enterprises Ltd,Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation,0.2
+ADANIGREEN,Adani Green Energy Ltd,High ROCE (>20%); Healthy operating margin; Healthy revenue growth,Weak interest coverage; Expensive valuation,0.25
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation,0.35
+ADANIPOWER,Adani Power Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth,Expensive valuation,0.3
+AMBUJACEM,Ambuja Cements Ltd,Comfortable interest coverage; Good dividend yield,Weak ROE; Slow revenue growth; Weak EPS growth; Expensive valuation,0.3
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation,0.3
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation,0.4
+ATGL,Adani Total Gas Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth,Expensive valuation,0.3
+AXISBANK,Axis Bank Ltd,Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Low ROCE; Weak interest coverage,0.4
+BAJAJ-AUTO,Bajaj Auto Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Good dividend yield,None,0.25
+BAJAJFINSV,Bajaj Finserv Ltd,High ROCE (>20%); Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.3
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.3
+BAJFINANCE,Bajaj Finance Ltd,Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation,0.35
+BANKBARODA,Bank of Baroda,Strong ROE; Healthy operating margin; Healthy profit growth; EPS growing consistently; Good dividend yield,Low ROCE; Weak interest coverage,0.35
+BEL,Bharat Electronics Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.35
+BHARTIARTL,Bharti Airtel Ltd,Healthy operating margin; Healthy revenue growth,Expensive valuation,0.15
+BHEL,"Bharat Heavy Electricals Limited
+",Good dividend yield,Low ROCE; Weak ROE; Slow revenue growth; Low operating margin,0.25
+BOSCHLTD,Bosch Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation,0.4
+BPCL,Bharat Petroleum Corporation Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy profit growth; EPS growing consistently,Expensive valuation; Low operating margin,0.35
+BRITANNIA,Britannia Industries Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage,Expensive valuation,0.2
+CANBK,Canara Bank,Strong ROE; Healthy operating margin; Healthy revenue growth; Good dividend yield,Low ROCE; Weak interest coverage,0.3
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.35
+CIPLA,"Cipla Ltd
+",High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently,Expensive valuation,0.35
+COALINDIA,Coal India Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.35
+DABUR,Dabur India Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Good dividend yield,Slow profit growth; Weak EPS growth; Expensive valuation,0.35
+DIVISLAB,Divis Laboratories Ltd,Healthy operating margin; Comfortable interest coverage,Expensive valuation,0.15
+DLF,DLF Ltd,Healthy operating margin; Comfortable interest coverage; Good dividend yield,Low ROCE; Weak ROE; Slow revenue growth; Expensive valuation,0.35
+DMART,Avenue Supermarts Ltd,Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation; Low operating margin,0.3
+DRREDDY,Dr Reddys Laboratories Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.35
+EICHERMOT,Eicher Motors Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.4
+GAIL,GAIL (India) Ltd,Comfortable interest coverage; Healthy revenue growth,Slow profit growth,0.15
+GODREJCP,Godrej Consumer Products Ltd,High ROCE (>20%); Healthy operating margin; Good dividend yield,Weak ROE,0.2
+GRASIM,Grasim Industries Ltd,Healthy operating margin; Healthy revenue growth,Low ROCE; Weak ROE; Weak EPS growth; Expensive valuation,0.3
+HAL,Hindustan Aeronautics Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation,0.4
+HAVELLS,Havells India Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation; Low operating margin,0.45
+HCLTECH,HCL Technologies Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth,Expensive valuation,0.3
+HDFCBANK,HDFC Bank Ltd,Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Low ROCE; Weak interest coverage; Expensive valuation,0.45
+HDFCLIFE,HDFC Life Insurance Company Ltd,Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Good dividend yield,Low ROCE; Expensive valuation,0.3
+HEROMOTOCO,"Hero MotoCorp Ltd
+",High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage,Slow profit growth; Weak EPS growth; Expensive valuation,0.35
+HINDALCO,Hindalco Industries Ltd,Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation,0.3
+HINDUNILVR,"Hindustan Unilever Ltd
+",High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Good dividend yield,None,0.25
+ICICIBANK,ICICI Bank Ltd,Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Low ROCE; Weak interest coverage,0.4
+ICICIGI,ICICI Lombard General Insurance Company Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Weak interest coverage; Expensive valuation,0.45
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Healthy operating margin; Comfortable interest coverage; Healthy revenue growth,Low ROCE; Weak ROE; Slow profit growth; Weak EPS growth,0.35
+INDIGO,Interglobe Aviation Ltd,High ROCE (>20%); Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Good dividend yield,Expensive valuation,0.3
+INDUSINDBK,IndusInd Bank Ltd,Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Low ROCE,0.3
+INFY,Infosys Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.4
+IOC,"Indian Oil Corporation
+",High ROCE (>20%); Strong ROE,Low operating margin,0.15
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation,0.4
+IRFC,Indian Railway Finance Corporation Ltd,Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Low ROCE; Weak interest coverage,0.35
+ITC,"ITC Ltd
+",High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Good dividend yield,Expensive valuation,0.3
+JINDALSTEL,Jindal Steel & Power Ltd,Healthy operating margin; Comfortable interest coverage,Expensive valuation,0.15
+JIOFIN,Jio Financial Services Ltd,Healthy operating margin; Good dividend yield,Low ROCE; Weak ROE,0.2
+JSWENERGY,JSW Energy Ltd,Healthy operating margin; Healthy profit growth,Low ROCE; Weak ROE,0.2
+JSWSTEEL,JSW Steel Ltd,Healthy revenue growth; Good dividend yield,Slow profit growth; Weak EPS growth; Expensive valuation,0.25
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Low ROCE; Weak interest coverage,0.35
+LICI,Life Insurance Corporation of India,High ROCE (>20%); Strong ROE; Healthy profit growth; Good dividend yield,Low operating margin,0.25
+LODHA,Macrotech Developers Ltd,Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently; Good dividend yield,Slow revenue growth; Expensive valuation,0.35
+LT,Larsen & Toubro Ltd,Healthy revenue growth,None,0.05
+LTIM,LTIMindtree Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation,0.4
+M&M,"Mahindra & Mahindra Ltd
+",High ROCE (>20%); Strong ROE; Healthy revenue growth; EPS growing consistently; Good dividend yield,None,0.25
+MARUTI,Maruti Suzuki India Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.3
+MOTHERSON,Samvardhana Motherson International Ltd,Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Low operating margin,0.3
+NAUKRI,Info Edge (India) Ltd,Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Good dividend yield,Low ROCE; Weak ROE,0.3
+NESTLEIND,Nestle India Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Good dividend yield,Expensive valuation,0.3
+NHPC,"NHPC Ltd
+",Healthy operating margin; Comfortable interest coverage,Low ROCE; Weak ROE; Slow revenue growth; Slow profit growth; Weak EPS growth; Expensive valuation,0.4
+NTPC,NTPC Ltd,Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.2
+ONGC,Oil & Natural Gas Corpn Ltd,Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.2
+PFC,Power Finance Corporation Ltd,Strong ROE; Healthy operating margin; Healthy profit growth; EPS growing consistently,Low ROCE; Weak interest coverage,0.3
+PIDILITIND,Pidilite Industries Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.35
+PNB,Punjab National Bank,Healthy revenue growth; Healthy profit growth; EPS growing consistently,Low ROCE; Weak ROE,0.25
+POWERGRID,Power Grid Corporation of India Ltd,Strong ROE; Healthy operating margin; Good dividend yield,Slow revenue growth; Expensive valuation,0.25
+RECLTD,REC Ltd,Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Weak interest coverage,0.35
+RELIANCE,"Reliance Industries Ltd
+",Comfortable interest coverage; Healthy profit growth; EPS growing consistently; Good dividend yield,Low ROCE; Weak ROE; Expensive valuation,0.35
+SBILIFE,SBI Life Insurance Company Ltd,Healthy revenue growth; Healthy profit growth; EPS growing consistently,Expensive valuation; Low operating margin,0.25
+SBIN,State Bank of India,Strong ROE; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Low ROCE; Weak interest coverage; Expensive valuation; Low operating margin,0.4
+SHREECEM,Shree Cement Ltd,Healthy operating margin; Comfortable interest coverage; Good dividend yield,Slow profit growth; Weak EPS growth,0.25
+SHRIRAMFIN,"Shriram Finance Ltd
+",Strong ROE; Healthy operating margin; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Weak interest coverage; Expensive valuation,0.35
+SIEMENS,Siemens Ltd,High ROCE (>20%); Strong ROE; Low debt; Comfortable interest coverage; Positive free cash flow; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.45
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.3
+TATACONSUM,Tata Consumer Products Ltd,Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently,Weak ROE; Expensive valuation,0.3
+TATAMOTORS,Tata Motors Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Good dividend yield,Expensive valuation,0.3
+TATAPOWER,"Tata Power Company Ltd
+",Healthy revenue growth; Healthy profit growth; EPS growing consistently,None,0.15
+TATASTEEL,"Tata Steel Ltd
+",Healthy profit growth; EPS growing consistently,Low ROCE; Weak ROE; Expensive valuation,0.25
+TCS,Tata Consultancy Services Ltd,High ROCE (>20%); Healthy operating margin; Comfortable interest coverage,Weak ROE; Expensive valuation,0.25
+TECHM,Tech Mahindra Ltd,Comfortable interest coverage,Weak ROE; Slow profit growth; Weak EPS growth; Expensive valuation,0.25
+TITAN,"Titan Company Ltd
+",High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Low operating margin,0.4
+TORNTPHARM,Torrent Pharmaceuticals Ltd,High ROCE (>20%); Strong ROE; Healthy operating margin; Comfortable interest coverage; Healthy profit growth; EPS growing consistently,Expensive valuation,0.35
+TRENT,Trent Ltd,High ROCE (>20%); Strong ROE; Comfortable interest coverage; Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,None,0.35
+TVSMOTOR,TVS Motor Company Ltd,Healthy revenue growth; Healthy profit growth; EPS growing consistently; Good dividend yield,Expensive valuation,0.25

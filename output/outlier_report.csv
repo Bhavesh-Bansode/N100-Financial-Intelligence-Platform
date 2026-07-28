@@ -1,0 +1,9 @@
+company_id,company_name,broad_sector,year,metric,metric_value,z_score,abs_z_score
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,2024-03,net_profit_margin_pct,432.7262044653349,4.5989,4.5989
+PNB,Punjab National Bank,Financials,2024-03,asset_turnover,1.51,4.3328,4.3328
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,2024-03,interest_coverage,3764.5,3.6732,3.6732
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,2024-03,asset_turnover,56.39,3.6037,3.6037
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,2024-03,return_on_equity_pct,892.568306010929,3.603,3.603
+TATAMOTORS,Tata Motors Ltd,Consumer Discretionary,2024-03,free_cash_flow_cr,45133.0,3.3508,3.3508
+PNB,Punjab National Bank,Financials,2024-03,return_on_equity_pct,61.320565191187306,3.326,3.326
+ADANIGREEN,Adani Green Energy Ltd,Energy,2024-03,debt_to_equity,6.6,3.2611,3.2611

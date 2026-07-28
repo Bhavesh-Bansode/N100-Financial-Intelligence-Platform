@@ -1,0 +1,53 @@
+id,company_name,broad_sector,pe_ratio,sector_median_pe,valuation_flag
+ABB,Abbott India Ltd,Industrials,75.58,47.155,Caution
+BAJAJFINSV,Bajaj Finserv Ltd,Financials,15.07,34.24,Discount
+BAJFINANCE,Bajaj Finance Ltd,Financials,69.2,34.24,Caution
+BANKBARODA,Bank of Baroda,Financials,16.89,34.24,Discount
+BEL,Bharat Electronics Ltd,Industrials,17.89,47.155,Discount
+BHEL,"Bharat Heavy Electricals Limited
+",Industrials,29.8,47.155,Discount
+BOSCHLTD,Bosch Ltd,Consumer Discretionary,58.43,38.005,Caution
+BPCL,Bharat Petroleum Corporation Ltd,Energy,68.15,44.915,Caution
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Financials,16.79,34.24,Discount
+COALINDIA,Coal India Ltd,Materials,34.27,55.62,Discount
+DMART,Avenue Supermarts Ltd,Consumer Discretionary,72.53,38.005,Caution
+DRREDDY,Dr Reddys Laboratories Ltd,Healthcare,11.73,47.06,Discount
+EICHERMOT,Eicher Motors Ltd,Consumer Discretionary,15.62,38.005,Discount
+GAIL,GAIL (India) Ltd,Energy,25.84,44.915,Discount
+GODREJCP,Godrej Consumer Products Ltd,Consumer Staples,33.59,50.95,Discount
+GRASIM,Grasim Industries Ltd,Industrials,79.35,47.155,Caution
+HAL,Hindustan Aeronautics Ltd,Industrials,71.89,47.155,Caution
+HINDUNILVR,"Hindustan Unilever Ltd
+",Consumer Staples,34.51,50.95,Discount
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Financials,20.83,34.24,Discount
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,76.23,38.005,Caution
+INDUSINDBK,IndusInd Bank Ltd,Financials,8.99,34.24,Discount
+INFY,Infosys Ltd,Information Technology,35.99,63.63,Discount
+IOC,"Indian Oil Corporation
+",Energy,28.61,44.915,Discount
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Consumer Discretionary,60.44,38.005,Caution
+IRFC,Indian Railway Finance Corporation Ltd,Financials,9.81,34.24,Discount
+JSWENERGY,JSW Energy Ltd,Energy,24.79,44.915,Discount
+LT,Larsen & Toubro Ltd,Industrials,30.8,47.155,Discount
+M&M,"Mahindra & Mahindra Ltd
+",Consumer Discretionary,14.22,38.005,Discount
+MARUTI,Maruti Suzuki India Ltd,Consumer Discretionary,20.78,38.005,Discount
+MOTHERSON,Samvardhana Motherson International Ltd,Consumer Discretionary,9.54,38.005,Discount
+NAUKRI,Info Edge (India) Ltd,Communication Services,32.88,48.33,Discount
+NHPC,"NHPC Ltd
+",Energy,71.17,44.915,Caution
+NTPC,NTPC Ltd,Energy,30.8,44.915,Discount
+ONGC,Oil & Natural Gas Corpn Ltd,Energy,18.15,44.915,Discount
+PIDILITIND,Pidilite Industries Ltd,Materials,36.12,55.62,Discount
+PNB,Punjab National Bank,Financials,19.29,34.24,Discount
+SBILIFE,SBI Life Insurance Company Ltd,Financials,69.98,34.24,Caution
+SBIN,State Bank of India,Financials,54.93,34.24,Caution
+SHREECEM,Shree Cement Ltd,Materials,25.87,55.62,Discount
+SHRIRAMFIN,"Shriram Finance Ltd
+",Financials,68.53,34.24,Caution
+TATAMOTORS,Tata Motors Ltd,Consumer Discretionary,67.07,38.005,Caution
+TATAPOWER,"Tata Power Company Ltd
+",Energy,14.5,44.915,Discount
+TITAN,"Titan Company Ltd
+",Consumer Discretionary,10.13,38.005,Discount
+TRENT,Trent Ltd,Consumer Discretionary,8.65,38.005,Discount
