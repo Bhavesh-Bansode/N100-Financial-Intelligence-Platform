@@ -392,4 +392,4 @@ This project is released under the MIT License.
 
 # Acknowledgements
 
-Developed as part of the **Bluestock Fintech Internship Capstone Project**, demonstrating end-to-end financial data engineering, analytics, and dashboard development using modern Python technologies.
+Developed as part of the **Bluestock Fintech Internship Project**, demonstrating end-to-end financial data engineering, analytics, and dashboard development using modern Python technologies.
