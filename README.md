@@ -127,7 +127,6 @@ Bluestock-N100-Financial-Intelligence-Platform/
 
 ├── data/
 │   ├── raw/
-│   ├── processed/
 │   ├── supporting/
 │   └── nifty100.db
 │
