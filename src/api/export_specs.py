@@ -10,7 +10,7 @@ from src.api.main import API_VERSION, app
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DOCS_DIR = PROJECT_ROOT / "docs"
+DOCS_DIR = PROJECT_ROOT /
 
 
 def main() -> None:
