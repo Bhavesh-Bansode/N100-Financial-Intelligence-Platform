@@ -1,5 +1,13 @@
 # 📈 Bluestock N100 Financial Intelligence Platform
 
+<p align="center">
+
+[![Live Dashboard](https://img.shields.io/badge/🚀%20Live-Dashboard-success?style=for-the-badge)](https://nifty100analytics.streamlit.app/Home)
+[![Swagger API](https://img.shields.io/badge/⚡%20REST%20API-Swagger-blue?style=for-the-badge)](https://n100-financial-intelligence-platform-gy4w.onrender.com/docs)
+[![GitHub](https://img.shields.io/badge/📂%20Source%20Code-GitHub-black?style=for-the-badge)](https://github.com/Bhavesh-Bansode/N100-Financial-Intelligence-Platform)
+
+</p>
+
 > An end-to-end financial analytics platform for analysing Nifty 100 companies through automated ETL pipelines, financial KPI computation, advanced analytics, FastAPI REST APIs, and an interactive Streamlit dashboard.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
@@ -21,6 +29,25 @@ It combines a robust ETL pipeline, relational database, analytical engine, REST 
 The system enables analysts, investors, researchers, and students to perform detailed financial analysis without manually processing large financial datasets.
 
 ---
+## 🚀 Live Deployment
+
+The project has been deployed and is publicly accessible.
+
+### 🌐 Interactive Dashboard
+
+**Streamlit App**
+
+https://nifty100analytics.streamlit.app/Home
+
+### ⚡ REST API Documentation
+
+**Swagger UI**
+
+https://n100-financial-intelligence-platform-gy4w.onrender.com/docs
+
+### 📂 Source Code
+
+https://github.com/Bhavesh-Bansode/N100-Financial-Intelligence-Platform
 
 # Key Features
 
@@ -237,6 +264,17 @@ http://localhost:8000/docs
 ```bash
 streamlit run app.py
 ```
+## Live Demo
+
+If you don't want to install the project locally, you can explore the deployed application here.
+
+### Dashboard
+
+https://nifty100analytics.streamlit.app/Home
+
+### API Documentation
+
+https://n100-financial-intelligence-platform-gy4w.onrender.com/docs
 
 ---
 
@@ -381,6 +419,16 @@ Complete project documentation is available in:
 docs/
 Professional_Analyst_Manual.docx
 ```
+## 🌐 Live Project
+
+Dashboard:
+https://nifty100analytics.streamlit.app/Home
+
+REST API:
+https://n100-financial-intelligence-platform-gy4w.onrender.com/docs
+
+GitHub:
+https://github.com/Bhavesh-Bansode/N100-Financial-Intelligence-Platform
 
 ---
 
