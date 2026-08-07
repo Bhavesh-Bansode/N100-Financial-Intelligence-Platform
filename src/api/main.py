@@ -6,7 +6,7 @@ from pathlib import Path
 import sqlite3
 from time import perf_counter
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request,APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -28,6 +28,7 @@ async def lifespan(app: FastAPI):
     app.state.started_at = perf_counter()
     yield
 
+router=APIRouter()
 
 app = FastAPI(
     title="Nifty 100 Financial Intelligence API",
@@ -36,6 +37,11 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+@router.get("/")
+def home():
+    return {
+        "message":"hello"
+    }
 # Internal application: allow browser clients hosted on any origin.
 app.add_middleware(
     CORSMiddleware,
@@ -44,7 +50,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
+app = FastAPI()
 
+@app.get("/")
+def home():
+    return RedirectResponse(url="/docs")
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
